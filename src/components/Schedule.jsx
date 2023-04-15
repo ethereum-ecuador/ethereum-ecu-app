@@ -6,24 +6,72 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background.jpg'
 
+const speakers = [
+  {
+    "_id": "LegalLab",
+    "name": "Legal Lab",
+    "role": "",
+    "image": "",
+    "linkedin": "https://www.linkedin.com/showcase/usfq-jurisprudencia/"
+  },
+  {
+    "_id": "DiegoJaramillo",
+    "name": "Diego Jaramillo",
+    "role": "",
+    "image": "",
+    "linkedin": ""
+  },
+  {
+    "_id": "XavierAndrade",
+    "name": "Xavier Andrade",
+    "linkedin": ""
+  },
+  {
+    "_id": "FranciscoAlmeida",
+    "name": "Francisco Almeida",
+    "linkedin": "https://www.linkedin.com/showcase/usfq-jurisprudencia/"
+  },
+  {
+    "_id": "JoseAdatty",
+    "name": "Jose Adatty",
+    "linkedin": "https://equity.ec/"
+  },
+  {
+    "_id": "FelipeOleas",
+    "name": "Felipe Oleas",
+    "linkedin": "https://equity.ec/"
+  },
+  {
+    "_id": "MiguelVillegas",
+    "name": "Miguel Villegas",
+    "linkedin": "https://www.linkedin.com/in/miguel-%C3%A1ngel-villegas-4984b1199/"
+  },
+  {
+    "_id": "JoseSebastianPonce",
+    "name": "Jose Sebastian Ponce",
+    "linkedin": ""
+  }
+]
+
+
 const schedule = [
   {
-    date: 'April 4',
-    dateTime: '2022-04-04',
+    date: 'Mayo 15',
+    dateTime: '',
     summary:
-      'The first day of the conference is focused on dark patterns for ecommerce.',
+      '',
     timeSlots: [
       {
-        name: 'Steven McHail',
-        description: 'Not so one-time payments',
-        start: '9:00AM',
-        end: '10:00AM',
+        name: '',
+        description: '',
+        start: '',
+        end: '',
       },
       {
-        name: 'Jaquelin Isch',
-        description: 'The finer print',
-        start: '10:00AM',
-        end: '11:00AM',
+        name: '',
+        description: '',
+        start: '',
+        end: '',
       },
       {
         name: 'Dianne Guilianelli',
