@@ -8,6 +8,8 @@ import { Schedule } from '@/components/Schedule'
 import { Speakers } from '@/components/Speakers'
 import { Sponsors } from '@/components/Sponsors'
 import { MainNavbar } from '@/components/Navbar'
+import {AboutComponent} from '@/components/About'
+
 
 export default function Home() {
   return (
@@ -15,13 +17,14 @@ export default function Home() {
       <Head>
         <title>DeceptiConf - A community-driven design conference</title>
         
-      </Head>
-      <MainNavbar/>
-      <Header />
-      <main>
+        </Head>
+        <MainNavbar/>
+        <Header />
+        <main>
         <Hero />
         <Speakers />
         <Schedule />
+        <AboutComponent/>
         <Sponsors />
         <Newsletter />
       </main>
