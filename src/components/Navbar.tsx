@@ -1,10 +1,12 @@
-import { Navbar, Button, Link, Text } from "@nextui-org/react";
+import { Navbar, Button, Link, Text,Image } from "@nextui-org/react";
+
 
 export function MainNavbar(){
     return(
         <>
          <Navbar isBordered variant="sticky">
          <Navbar.Brand>
+
         <Text h3>Ethereum Ecuador</Text>
           <Link href="/"/>
          </Navbar.Brand>
