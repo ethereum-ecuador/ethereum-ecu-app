@@ -1,7 +1,7 @@
 import { Card, Col, Row, Button, Text } from "@nextui-org/react";
 
 export const About = () => (
-  <Card css={{ w: "100%", h: "400px", br: 0, border: 0 }}>
+  <Card css={{ w: "100%", h: "700px", br: 0, border: 0 }}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
         <Text  h3 align="center" color="#ffffff">
