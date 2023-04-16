@@ -11,7 +11,6 @@ const links = [
 export const Navbar = () => {
   const [scroll, setScroll] = useState(0);
   const [background, setBackground] = useState('transparent');
-  const [color, setColor] = useState('white');
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
@@ -24,18 +23,16 @@ export const Navbar = () => {
     const newScroll = window.pageYOffset;
     setScroll(newScroll);
     if (newScroll > 100) {
-      setBackground('white');
-      setColor('black');
+      setBackground('#241132');
     } else {
       setBackground('transparent');
-      setColor('white');
     }
   };
   
 
   return (
     <>
-      <div className="navbar" style={{color, background, position: 'fixed', top: 0, width: '100%', zIndex: 10 }}>
+      <div className="navbar" style={{color:'white', background, position: 'fixed', top: 0, width: '100%', zIndex: 100 }}>
         <div className="mobile-navbar">
           <MobileNavbar links={links} />
         </div>

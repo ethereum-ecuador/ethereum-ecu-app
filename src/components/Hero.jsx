@@ -20,7 +20,7 @@ export const Hero = () => {
           <p className="text-white text-xl md:text-2xl lg:text-3xl mb-6">
             Quito, Ecuador
           </p>
-          <div>
+          <div className='flex flex-col justify-center items-center gap-4 md:flex-row'>
             <a
               href="#tickets"
               className="inline-block px-6 py-3 text-xl font-semibold text-white bg-blue-500 rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300"
@@ -29,7 +29,7 @@ export const Hero = () => {
             </a>
             <a
               href="#info"
-              className="inline-block ml-4 px-6 py-3 text-xl font-semibold text-blue-500 bg-white border border-blue-500 rounded-lg shadow-md hover:bg-blue-100 transition-colors duration-300"
+              className="inline-block px-6 py-3 text-xl font-semibold text-blue-500 bg-white border border-blue-500 rounded-lg shadow-md hover:bg-blue-100 transition-colors duration-300"
             >
               Más información
             </a>
