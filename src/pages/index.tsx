@@ -6,7 +6,7 @@ import { Newsletter } from '@/components/Newsletter'
 import { Schedule } from '@/components/Schedule'
 import { Speakers } from '@/components/Speakers'
 import { Sponsors } from '@/components/Sponsors'
-import { MainNavbar } from '@/components/Navbar'
+import  Nav  from '@/components/Navbar' 
 import {AboutComponent} from '@/components/About'
 import { Hero } from '@/components/Hero'
 
@@ -16,10 +16,11 @@ export default function Home() {
     <>
       <Head>
         <title>DeceptiConf - A community-driven design conference</title>
-      </Head>
-      <MainNavbar/>
-      {/* <Header /> */}
-      <main>
+        
+        </Head>
+        <Nav/>
+        {/* <Header /> */}
+        <main>
         <Hero />
         {/* <Speakers/> */}
         <Schedule />
