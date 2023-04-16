@@ -31,8 +31,8 @@ const days = [
     dateTime: '2022-04-04',
     speakers: [
       {
-        name: 'Steven McHail',
-        role: 'Designer at Globex Corporation',
+        name: 'Nicolás Serrano',
+        role: 'Ethereum Foundation',
         image: stevenMchailImage,
       },
       {

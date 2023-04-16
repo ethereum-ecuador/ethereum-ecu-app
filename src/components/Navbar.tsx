@@ -1,22 +1,44 @@
-import { Navbar, Button, Link, Text,Image } from "@nextui-org/react";
+import { Navbar, Button, Link, Text, Image } from "@nextui-org/react";
+import { useState, useEffect } from "react";
 
+export function MainNavbar() {
+  const [isScrolled, setIsScrolled] = useState(false);
 
-export function MainNavbar(){
-    return(
-        <>
-         <Navbar isBordered variant="sticky">
-         <Navbar.Brand>
+  useEffect(() => {
+    function handleScroll() {
+      const scrollTop = window.pageYOffset;
+      if (scrollTop > 0 && !isScrolled) {
+        setIsScrolled(true);
+      } else if (scrollTop === 0 && isScrolled) {
+        setIsScrolled(false);
+      }
+    }
 
-        <Text h3>Ethereum Ecuador</Text>
-          <Link href="/"/>
-         </Navbar.Brand>
-            <Navbar.Content>
-            <Navbar.Link href="#">Sobre Nosotros</Navbar.Link>
-            <Navbar.Link href="#">Involucrarse</Navbar.Link>
-            <Navbar.Link href="#">Tickets</Navbar.Link>
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [isScrolled]);
+
+  return (
+    <>
+    
+    <Navbar isBordered variant="sticky" bg={isScrolled ? "white" : "none"}>
+        <Navbar.Brand>
+          <Image src="https://svgshare.com/i/sA3.svg" alt="j" width={50} height={50}></Image>
+
+          <Text h3>Ethereum Ecuador</Text>
+          <Link href="/" />
+        </Navbar.Brand>
+        <Navbar.Content>
+          <Navbar.Link href="#">Sobre Nosotros</Navbar.Link>
+          <Navbar.Link href="#">Involucrarse</Navbar.Link>
+          <Navbar.Link href="#">Tickets</Navbar.Link>
         </Navbar.Content>
-         </Navbar>
-        </>
-    )
+      </Navbar>
 
+      
+    </>
+  );
 }
