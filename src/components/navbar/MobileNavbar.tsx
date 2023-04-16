@@ -1,20 +1,24 @@
 import React, { useState } from 'react';
+import Image from 'next/image';
 
-export const MobileNavbar = () => {
+export const MobileNavbar = ({ links }:{ links:any }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-transparent w-full z-10 top-0 fixed">
+    <header className="bg-transparent w-full z-10 top-0 fixed" style={{padding:'0 1rem'}}>
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="text-white font-bold">
-          <a href="#" className="text-xl">Mi Sitio</a>
+        <div className="text-white font-bold flex flex-row items-center">
+            <a href="#" className="text-xl">
+            <Image src="/images/logo.png" alt="" width={25} height={25}/>
+            </a>
+            <span style={{marginLeft:'10px'}}>ETH Tricolor</span>
         </div>
         <button
           className="md:hidden focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
           <svg
-            className="w-6 h-6 text-black"
+            className="w-6 h-6 text-white"
             fill="none"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -30,10 +34,13 @@ export const MobileNavbar = () => {
           </svg>
         </button>
         <ul className={`md:flex space-x-8 text-white ${isOpen ? 'block' : 'hidden'}`}>
-          <li><a href="#" className="hover:text-blue-300">Inicio</a></li>
-          <li><a href="#" className="hover:text-blue-300">Acerca</a></li>
-          <li><a href="#" className="hover:text-blue-300">Servicios</a></li>
-          <li><a href="#" className="hover:text-blue-300">Contacto</a></li>
+            {links.map((link:any) => (
+                <li style={{margin:0}} key={link.id}>
+                    <a href={link.href} className="hover:text-blue-300">
+                        {link.name}
+                    </a>
+                </li>
+            ))}
         </ul>
       </nav>
     </header>

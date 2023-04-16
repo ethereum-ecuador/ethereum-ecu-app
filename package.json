@@ -20,13 +20,7 @@
     "next": "13.3.0",
     "postcss-focus-visible": "^6.0.4",
     "react": "18.2.0",
-<<<<<<< HEAD
-    "react-dom": "18.2.0",
-    "react-scroll": "^1.8.9",
-    "tailwindcss": "^3.3.0"
-=======
     "react-dom": "18.2.0"
->>>>>>> d5c8fecd2062694e45353920c7dd38d67b7e4e88
   },
   "devDependencies": {
     "@types/node": "18.15.11",
