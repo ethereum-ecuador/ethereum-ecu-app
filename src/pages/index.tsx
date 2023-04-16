@@ -16,13 +16,12 @@ export default function Home() {
     <>
       <Head>
         <title>DeceptiConf - A community-driven design conference</title>
-        
-        </Head>
-        <MainNavbar/>
-        {/* <Header /> */}
-        <main>
+      </Head>
+      <MainNavbar/>
+      {/* <Header /> */}
+      <main>
         <Hero />
-        <Speakers />
+        {/* <Speakers/> */}
         <Schedule />
         <AboutComponent/>
         <Sponsors />

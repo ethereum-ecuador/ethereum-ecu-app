@@ -8,10 +8,9 @@ export function AboutComponent(){
                 una semana de conferencias
               </h2>
               <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-               random text
+                random text
               </p>
             </div>
-           
           </Container>
           </section>
           )
