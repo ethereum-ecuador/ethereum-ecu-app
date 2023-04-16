@@ -190,7 +190,7 @@ export function Speakers() {
           >
             Speakers
           </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
+          <p className="mt-4 font-display text-2xl tracking-tight text-white">
             Learn from the experts on the cutting-edge of deception at the most
             sinister companies.
           </p>
@@ -210,7 +210,7 @@ export function Speakers() {
                       className={clsx(
                         'absolute left-[-0.5px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block',
                         dayIndex === selectedIndex
-                          ? 'fill-blue-600 stroke-blue-600'
+                          ? 'text-white stroke-white'
                           : 'fill-transparent stroke-slate-400'
                       )}
                     />
@@ -219,7 +219,7 @@ export function Speakers() {
                         className={clsx(
                           'font-mono text-sm',
                           dayIndex === selectedIndex
-                            ? 'text-blue-600'
+                            ? 'text-white'
                             : 'text-slate-500'
                         )}
                       >
@@ -230,7 +230,7 @@ export function Speakers() {
                       </div>
                       <time
                         dateTime={day.dateTime}
-                        className="mt-1.5 block text-2xl font-semibold tracking-tight text-blue-900"
+                        className="mt-1.5 block text-2xl font-semibold tracking-tight text-white"
                       >
                         {day.date}
                       </time>
@@ -273,10 +273,10 @@ export function Speakers() {
                         />
                       </div>
                     </div>
-                    <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">
+                    <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-white">
                       {speaker.name}
                     </h3>
-                    <p className="mt-1 text-base tracking-tight text-slate-500">
+                    <p className="mt-1 text-base tracking-tight text-white/80">
                       {speaker.role}
                     </p>
                   </div>

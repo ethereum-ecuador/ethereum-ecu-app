@@ -6,7 +6,7 @@ export const Hero = () => {
     <div
       className="relative bg-top bg-cover min-h-screen flex flex-col"
       style={{
-        backgroundImage: `linear-gradient(rgba(128, 0, 128, 0.2), rgba(128, 0, 128, 0.2)), url('https://cdn.leonardo.ai/users/c52f45ae-576d-4f2f-ae5a-01d5f5ae5827/generations/d0514141-9fdf-4a4f-9554-0713fe502070/Leonardo_Diffusion_Esta_impresionante_imagen_captura_la_esenci_0.jpg')`,
+        backgroundImage: `linear-gradient(rgba(128, 0, 128, 0.2), rgba(128, 0, 128, 0.2)), url('https://cdn.leonardo.ai/users/c52f45ae-576d-4f2f-ae5a-01d5f5ae5827/generations/eba622f1-a078-4519-9c98-c8e75036beb3/variations/Default_Esta_impresionante_imagen_captura_la_esencia_de_la_mit_0_eba622f1-a078-4519-9c98-c8e75036beb3_1.jpg')`,
       }}
     >
       <div className="h-screen flex items-center justify-center">
