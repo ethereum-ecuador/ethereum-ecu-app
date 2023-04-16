@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from 'next/link';
 import Image from 'next/image';
 
 const Nav = () => {
@@ -12,7 +12,7 @@ const Nav = () => {
         <ul>
           <li>
             <Link href="/">
-          Sobre Nosotros
+              Sobre Nosotros
             </Link>
           </li>
           <li>
@@ -67,9 +67,29 @@ const Nav = () => {
         a:hover {
           text-decoration: underline;
         }
+        @media screen and (max-width: 600px) {
+          .nav-container {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+          .logo-container {
+            margin-bottom: 10px;
+          }
+          h3 {
+            margin: 0;
+          }
+          ul {
+            margin: 0;
+            padding: 0;
+          }
+          li {
+            margin: 0;
+            margin-bottom: 10px;
+          }
+        }
       `}</style>
     </nav>
-  )
-}
+  );
+};
 
 export default Nav;
