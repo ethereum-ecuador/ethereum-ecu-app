@@ -5,61 +5,61 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background.jpg'
+import { nanoid } from 'nanoid'
 
 const speakers = [
   {
-    "_id": "LegalLab",
-    "name": "Legal Lab",
-    "role": "",
-    "image": "",
-    "linkedin": "https://www.linkedin.com/showcase/usfq-jurisprudencia/"
+    _id: 'LegalLab',
+    name: 'Legal Lab',
+    role: '',
+    image: '',
+    linkedin: 'https://www.linkedin.com/showcase/usfq-jurisprudencia/',
   },
   {
-    "_id": "DiegoJaramillo",
-    "name": "Diego Jaramillo",
-    "role": "",
-    "image": "",
-    "linkedin": ""
+    _id: 'DiegoJaramillo',
+    name: 'Diego Jaramillo',
+    role: '',
+    image: '',
+    linkedin: '',
   },
   {
-    "_id": "XavierAndrade",
-    "name": "Xavier Andrade",
-    "linkedin": ""
+    _id: 'XavierAndrade',
+    name: 'Xavier Andrade',
+    linkedin: '',
   },
   {
-    "_id": "FranciscoAlmeida",
-    "name": "Francisco Almeida",
-    "linkedin": "https://www.linkedin.com/showcase/usfq-jurisprudencia/"
+    _id: 'FranciscoAlmeida',
+    name: 'Francisco Almeida',
+    linkedin: 'https://www.linkedin.com/showcase/usfq-jurisprudencia/',
   },
   {
-    "_id": "JoseAdatty",
-    "name": "Jose Adatty",
-    "linkedin": "https://equity.ec/"
+    _id: 'JoseAdatty',
+    name: 'Jose Adatty',
+    linkedin: 'https://equity.ec/',
   },
   {
-    "_id": "FelipeOleas",
-    "name": "Felipe Oleas",
-    "linkedin": "https://equity.ec/"
+    _id: 'FelipeOleas',
+    name: 'Felipe Oleas',
+    linkedin: 'https://equity.ec/',
   },
   {
-    "_id": "MiguelVillegas",
-    "name": "Miguel Villegas",
-    "linkedin": "https://www.linkedin.com/in/miguel-%C3%A1ngel-villegas-4984b1199/"
+    _id: 'MiguelVillegas',
+    name: 'Miguel Villegas',
+    linkedin:
+      'https://www.linkedin.com/in/miguel-%C3%A1ngel-villegas-4984b1199/',
   },
   {
-    "_id": "JoseSebastianPonce",
-    "name": "Jose Sebastian Ponce",
-    "linkedin": ""
-  }
+    _id: 'JoseSebastianPonce',
+    name: 'Jose Sebastian Ponce',
+    linkedin: '',
+  },
 ]
-
 
 const schedule = [
   {
     date: 'Mayo 15',
     dateTime: '',
-    summary:
-      '',
+    summary: '',
     timeSlots: [
       {
         name: '',
@@ -335,7 +335,7 @@ function ScheduleTabbed() {
         {({ selectedIndex }) =>
           schedule.map((day, dayIndex) => (
             <div
-              key={day.dateTime}
+              key={dayIndex}
               className={clsx(
                 'relative w-3/4 flex-none pr-4 sm:w-auto sm:pr-0',
                 dayIndex !== selectedIndex && 'opacity-70'
@@ -359,7 +359,7 @@ function ScheduleTabbed() {
       <Tab.Panels>
         {schedule.map((day) => (
           <Tab.Panel
-            key={day.dateTime}
+            key={nanoid()}
             className="[&:not(:focus-visible)]:focus:outline-none"
           >
             <TimeSlots day={day} />
@@ -394,7 +394,7 @@ function TimeSlots({ day, className }) {
     >
       {day.timeSlots.map((timeSlot, timeSlotIndex) => (
         <li
-          key={timeSlot.start}
+          key={`${nanoid()}-${timeSlot.start}`}
           aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end} PST`}
         >
           {timeSlotIndex > 0 && (
@@ -428,9 +428,9 @@ function ScheduleStatic() {
   return (
     <div className="hidden lg:grid lg:grid-cols-3 lg:gap-x-8">
       {schedule.map((day) => (
-        <section key={day.dateTime}>
+        <section key={nanoid()}>
           <DaySummary day={day} />
-          <TimeSlots day={day} className="mt-10" /> 
+          <TimeSlots day={day} className="mt-10" />
         </section>
       ))}
     </div>

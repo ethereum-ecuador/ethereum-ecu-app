@@ -1,11 +1,10 @@
 import Head from 'next/head'
 
 import { Footer } from '@/components/Footer'
-import { Navbar } from '@/components/Navbar'
+import { Navbar } from '@/components/navbar'
 import { Hero } from '@/components/Hero'
 import { Newsletter } from '@/components/Newsletter'
 import { Schedule } from '@/components/Schedule'
-import { Speakers } from '@/components/Speakers'
 import { Sponsors } from '@/components/Sponsors'
 
 export default function Home() {
@@ -18,7 +17,7 @@ export default function Home() {
           content="At DeceptiConf you' ll learn about the latest dark patterns being developed to trick even the smartest visitors, and you’ll learn how to deploy them without ever being detected."
         />
       </Head>
-      <Navbar/>
+      <Navbar />
       <main>
         <Hero />
         <Schedule />
