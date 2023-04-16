@@ -1,24 +1,27 @@
 import Head from 'next/head'
 
 import { Footer } from '@/components/Footer'
+import { Navbar } from '@/components/Navbar'
+import { Hero } from '@/components/Hero'
 import { Newsletter } from '@/components/Newsletter'
 import { Schedule } from '@/components/Schedule'
+import { Speakers } from '@/components/Speakers'
 import { Sponsors } from '@/components/Sponsors'
-import Nav from '@/components/Navbar'
-import { AboutComponent } from '@/components/About'
-import { Hero } from '@/components/Hero'
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>DeceptiConf - A community-driven design conference</title>
+        <title>Road to Blockchain Week</title>
+        <meta
+          name="description"
+          content="At DeceptiConf you' ll learn about the latest dark patterns being developed to trick even the smartest visitors, and you’ll learn how to deploy them without ever being detected."
+        />
       </Head>
-      <Nav />
+      <Navbar/>
       <main>
         <Hero />
         <Schedule />
-        <AboutComponent />
         <Sponsors />
         <Newsletter />
       </main>

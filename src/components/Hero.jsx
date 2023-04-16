@@ -6,7 +6,7 @@ export const Hero = () => {
     <div
       className="relative bg-top bg-cover min-h-screen flex flex-col"
       style={{
-        backgroundImage: `linear-gradient(rgba(128, 0, 128, 0.2), rgba(128, 0, 128, 0.2)), url('https://cdn.leonardo.ai/users/c52f45ae-576d-4f2f-ae5a-01d5f5ae5827/generations/d0514141-9fdf-4a4f-9554-0713fe502070/Leonardo_Diffusion_Esta_impresionante_imagen_captura_la_esenci_0.jpg')`,
+        backgroundImage: `linear-gradient(rgba(128, 0, 128, 0.2), rgba(128, 0, 128, 0.2)), url('https://cdn.leonardo.ai/users/c52f45ae-576d-4f2f-ae5a-01d5f5ae5827/generations/eba622f1-a078-4519-9c98-c8e75036beb3/variations/Default_Esta_impresionante_imagen_captura_la_esencia_de_la_mit_0_eba622f1-a078-4519-9c98-c8e75036beb3_1.jpg')`,
       }}
     >
       <div className="h-screen flex items-center justify-center">
@@ -20,7 +20,7 @@ export const Hero = () => {
           <p className="text-white text-xl md:text-2xl lg:text-3xl mb-6">
             Quito, Ecuador
           </p>
-          <div>
+          <div className='flex flex-col justify-center items-center gap-4 md:flex-row'>
             <a
               href="#tickets"
               className="inline-block px-6 py-3 text-xl font-semibold text-white bg-blue-500 rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300"
@@ -29,7 +29,7 @@ export const Hero = () => {
             </a>
             <a
               href="#info"
-              className="inline-block ml-4 px-6 py-3 text-xl font-semibold text-blue-500 bg-white border border-blue-500 rounded-lg shadow-md hover:bg-blue-100 transition-colors duration-300"
+              className="inline-block px-6 py-3 text-xl font-semibold text-blue-500 bg-white border border-blue-500 rounded-lg shadow-md hover:bg-blue-100 transition-colors duration-300"
             >
               Más información
             </a>

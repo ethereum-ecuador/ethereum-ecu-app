@@ -1,106 +1,66 @@
-import Link from 'next/link'
-import Image from 'next/image';
+import React, { useState, useEffect } from 'react';
+import { DesktopNavbar } from './navbar/DesktopNavbar';
+import { MobileNavbar } from './navbar/MobileNavbar';
 
-const Nav = () => {
+const links = [
+  { name: 'Inicio', href: '/' },
+  { name: 'Acerca', href: '/about' },
+  { name: 'Servicios', href: '/services' },
+]
+
+export const Navbar = () => {
+  const [scroll, setScroll] = useState(0);
+  const [background, setBackground] = useState('transparent');
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [background]);
+
+  const handleScroll = () => {
+    const newScroll = window.pageYOffset;
+    setScroll(newScroll);
+    if (newScroll > 100) {
+      setBackground('#241132');
+    } else {
+      setBackground('transparent');
+    }
+  };
+  
+
   return (
-    <nav>
-      <div className="nav-container">
-        <div className="logo-container">
-          <Image src={"https://svgshare.com/i/sA3.svg"} width={50} height={50} />
-          <h3>Ethereum Ecuador</h3>
+    <>
+      <div className="navbar" style={{color:'white', background, position: 'fixed', top: 0, width: '100%', zIndex: 100 }}>
+        <div className="mobile-navbar">
+          <MobileNavbar links={links} />
         </div>
-        <ul>
-          <li>
-            <Link href="/" className="nav-link">
-             Sobre Nosotro
-            </Link>
-          </li>
-          <li>
-            <Link href="/about" className="nav-link">
-            Calendario
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact" className="nav-link">
-           Tickets
-            </Link>
-          </li>
-        </ul>
+        <div className="desktop-navbar">
+          <DesktopNavbar links={links}/>
+        </div>
       </div>
-      <style jsx>{`
-        nav {
-          background-color: white;
-          color: #333;
-          height: 50px;
-          padding: 0 20px;
-          display: flex;
-          justify-content: center;
-        }
-        .nav-container {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          width: 100%;
-          max-width: 1000px;
-        }
-        .logo-container {
-          display: flex;
-          align-items: center;
-        }
-        ul {
-          display: flex;
-          list-style: none;
-          margin: 0;
-          padding: 0;
-        }
-        li {
-          margin-right: 20px;
-        }
-        a {
-          color: #333;
-          text-decoration: none;
-          font-size: 18px;
-          font-weight: bold;
-          text-transform: uppercase;
-          letter-spacing: 1px;
-        }
-        a:hover {
-          text-decoration: underline;
-        }
-        @media screen and (max-width: 50px) {
-          .logo-container {
-            flex-direction: column;
-            align-items: center;
+      <style jsx>
+        {`
+          .navbar {
+            transition: background 0.6s ease;
           }
-          h3 {
-            margin-top: 10px;
+          .mobile-navbar {
+            display: block;
           }
-          ul {
-            flex-direction: column;
-            align-items: center;
-            margin-top: 10px;
+          .desktop-navbar {
+            display: none;
           }
-          li {
-            margin: 0;
-            margin-bottom: 10px;
+          @media (min-width: 768px) {
+            .mobile-navbar {
+              display: none;
+            }
+            .desktop-navbar {
+              display: block;
+            }
           }
-        }
-        @media only screen and (max-width: 500px) {
-          .nav-container {
-            flex-direction: column;
-            align-items: flex-start;
-          }
-          .logo-container {
-            margin-bottom: 10px;
-          }
-          h3 {
-            margin: 0;
-          }
-        }
-      `}</style>
-
-    </nav>
-  )
-}
-
-export default Nav;
+        `}
+      </style>
+    </>
+  );
+};

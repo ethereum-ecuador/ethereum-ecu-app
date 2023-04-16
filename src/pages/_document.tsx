@@ -14,6 +14,7 @@ export default function Document() {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=DM+Sans:wght@400;500;700&display=swap"
         />
+        <link rel="icon" type="image/png" href="/images/logo.png"></link>
       </Head>
       <body>
         <Main />
