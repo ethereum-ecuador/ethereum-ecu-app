@@ -1,24 +1,44 @@
 import React from 'react';
+import { Speakers } from '@/components/Speakers';
 
 export const Hero = () => {
   return (
     <div
-      className="relative bg-cover bg-center h-screen flex items-center justify-center"
+      className="relative bg-top bg-cover min-h-screen flex flex-col"
       style={{
-        backgroundImage: `url('https://cdn.leonardo.ai/users/c52f45ae-576d-4f2f-ae5a-01d5f5ae5827/generations/834eaa41-333a-455c-b86b-b8fd21d127e6/Leonardo_Diffusion_ethereum_symbol_as_background_background_co_0.jpg')`,
+        backgroundImage: `linear-gradient(rgba(128, 0, 128, 0.2), rgba(128, 0, 128, 0.2)), url('https://cdn.leonardo.ai/users/c52f45ae-576d-4f2f-ae5a-01d5f5ae5827/generations/d0514141-9fdf-4a4f-9554-0713fe502070/Leonardo_Diffusion_Esta_impresionante_imagen_captura_la_esenci_0.jpg')`,
       }}
     >
-      <div className="absolute inset-0 bg-black opacity-50"></div>
-      <div className="text-center relative">
-        <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold mb-4">
-          Título Grande
-        </h1>
-        <p className="text-white text-xl md:text-2xl lg:text-3xl">
-          Subtítulo un poco menor
-        </p>
+      <div className="h-screen flex items-center justify-center">
+        <div className="text-center relative">
+          <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-2">
+            Road To
+          </h2>
+          <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold mb-4">
+            Blockchain Week
+          </h1>
+          <p className="text-white text-xl md:text-2xl lg:text-3xl mb-6">
+            Quito, Ecuador
+          </p>
+          <div>
+            <a
+              href="#tickets"
+              className="inline-block px-6 py-3 text-xl font-semibold text-white bg-blue-500 rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300"
+            >
+              Obtén tus tickets
+            </a>
+            <a
+              href="#info"
+              className="inline-block ml-4 px-6 py-3 text-xl font-semibold text-blue-500 bg-white border border-blue-500 rounded-lg shadow-md hover:bg-blue-100 transition-colors duration-300"
+            >
+              Más información
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="">
+        <Speakers />
       </div>
     </div>
   );
 };
-
-
