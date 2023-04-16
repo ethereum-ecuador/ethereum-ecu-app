@@ -18,7 +18,7 @@ export default function Home() {
         <title>DeceptiConf - A community-driven design conference</title>
         
         </Head>
-        <MainNavbar/>
+        <Nav/>
         {/* <Header /> */}
         <main>
         <Hero />
