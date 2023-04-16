@@ -32,13 +32,14 @@ export function MainNavbar() {
           <Link href="/" />
         </Navbar.Brand>
         <Navbar.Content>
-          <Navbar.Link href="#">Sobre Nosotros</Navbar.Link>
-          <Navbar.Link href="#">Involucrarse</Navbar.Link>
-          <Navbar.Link href="#">Tickets</Navbar.Link>
+          <Navbar.Link href="#about">Sobre Nosotros</Navbar.Link>
+          <Navbar.Link href="https://www.eventbrite.com">Tickets</Navbar.Link>
+          <Navbar.Link href="#schedule">Calendario</Navbar.Link>  
         </Navbar.Content>
       </Navbar>
 
       
     </>
   );
+  //"schedule"
 }
