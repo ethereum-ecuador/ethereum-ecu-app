@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from 'next/link'
 import Image from 'next/image';
 
 const Nav = () => {
@@ -11,18 +11,18 @@ const Nav = () => {
         </div>
         <ul>
           <li>
-            <Link href="/">
-              Sobre Nosotros
+            <Link href="/" className="nav-link">
+             Sobre Nosotro
             </Link>
           </li>
           <li>
-            <Link href="/about">
-              Calendario
+            <Link href="/about" className="nav-link">
+            Calendario
             </Link>
           </li>
           <li>
-            <Link href="/contact">
-              Tickets
+            <Link href="/contact" className="nav-link">
+           Tickets
             </Link>
           </li>
         </ul>
@@ -41,7 +41,7 @@ const Nav = () => {
           justify-content: space-between;
           align-items: center;
           width: 100%;
-          max-width: 1200px;
+          max-width: 1000px;
         }
         .logo-container {
           display: flex;
@@ -67,7 +67,25 @@ const Nav = () => {
         a:hover {
           text-decoration: underline;
         }
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 50px) {
+          .logo-container {
+            flex-direction: column;
+            align-items: center;
+          }
+          h3 {
+            margin-top: 10px;
+          }
+          ul {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+          }
+          li {
+            margin: 0;
+            margin-bottom: 10px;
+          }
+        }
+        @media only screen and (max-width: 500px) {
           .nav-container {
             flex-direction: column;
             align-items: flex-start;
@@ -78,18 +96,11 @@ const Nav = () => {
           h3 {
             margin: 0;
           }
-          ul {
-            margin: 0;
-            padding: 0;
-          }
-          li {
-            margin: 0;
-            margin-bottom: 10px;
-          }
         }
       `}</style>
+
     </nav>
-  );
-};
+  )
+}
 
 export default Nav;
