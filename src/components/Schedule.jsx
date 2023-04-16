@@ -430,7 +430,7 @@ function ScheduleStatic() {
       {schedule.map((day) => (
         <section key={day.dateTime}>
           <DaySummary day={day} />
-          <TimeSlots day={day} className="mt-10" />
+          <TimeSlots day={day} className="mt-10" /> 
         </section>
       ))}
     </div>
@@ -443,13 +443,10 @@ export function Schedule() {
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
-            Our three day schedule is jam-packed with brilliant, creative, evil
-            geniuses.
+            Una semana de charlas relacionadas a Ethereum y web3
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            The worst people in our industry giving the best talks you’ve ever
-            seen. Nothing will be recorded and every attendee has to sign an NDA
-            to watch the talks.
+            Calendario de charlas y workshops de la road to blockchain week
           </p>
         </div>
       </Container>
