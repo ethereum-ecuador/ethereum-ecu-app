@@ -205,6 +205,106 @@ const schedule = [
       },
     ],
   },
+  {
+    date: 'April 6',
+    dateTime: '2022-04-06',
+    summary:
+      'We close out the event previewing new techniques that are still in development.',
+    timeSlots: [
+      {
+        name: 'Andrew Greene',
+        description: 'Neuralink dark patterns',
+        start: '9:00AM',
+        end: '10:00AM',
+      },
+      {
+        name: 'Heather Terry',
+        description: 'DALL-E for passports',
+        start: '10:00AM',
+        end: '11:00AM',
+      },
+      {
+        name: 'Piers Wilkins',
+        description: 'Quantum password cracking',
+        start: '11:00AM',
+        end: '12:00PM',
+      },
+      {
+        name: 'Lunch',
+        description: null,
+        start: '12:00PM',
+        end: '1:00PM',
+      },
+      {
+        name: 'Gordon Sanderson',
+        description: 'SkyNet is coming',
+        start: '1:00PM',
+        end: '2:00PM',
+      },
+      {
+        name: 'Kimberly Parsons',
+        description: 'Dark patterns for the metaverse',
+        start: '2:00PM',
+        end: '3:00PM',
+      },
+      {
+        name: 'Richard Astley',
+        description: 'Knowing the game and playing it',
+        start: '3:00PM',
+        end: '4:00PM',
+      },
+    ],
+  },
+  {
+    date: 'April 6',
+    dateTime: '2022-04-06',
+    summary:
+      'We close out the event previewing new techniques that are still in development.',
+    timeSlots: [
+      {
+        name: 'Andrew Greene',
+        description: 'Neuralink dark patterns',
+        start: '9:00AM',
+        end: '10:00AM',
+      },
+      {
+        name: 'Heather Terry',
+        description: 'DALL-E for passports',
+        start: '10:00AM',
+        end: '11:00AM',
+      },
+      {
+        name: 'Piers Wilkins',
+        description: 'Quantum password cracking',
+        start: '11:00AM',
+        end: '12:00PM',
+      },
+      {
+        name: 'Lunch',
+        description: null,
+        start: '12:00PM',
+        end: '1:00PM',
+      },
+      {
+        name: 'Gordon Sanderson',
+        description: 'SkyNet is coming',
+        start: '1:00PM',
+        end: '2:00PM',
+      },
+      {
+        name: 'Kimberly Parsons',
+        description: 'Dark patterns for the metaverse',
+        start: '2:00PM',
+        end: '3:00PM',
+      },
+      {
+        name: 'Richard Astley',
+        description: 'Knowing the game and playing it',
+        start: '3:00PM',
+        end: '4:00PM',
+      },
+    ],
+  },
 ]
 
 function ScheduleTabbed() {
