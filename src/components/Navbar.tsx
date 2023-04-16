@@ -23,8 +23,8 @@ export function MainNavbar() {
 
   return (
     <>
-    
-    <Navbar isBordered variant="sticky" bg={isScrolled ? "white" : "none"}>
+    {/* bg={isScrolled ? "white" : "none" */}
+    <Navbar isBordered variant="sticky" > 
         <Navbar.Brand>
           <Image src="https://svgshare.com/i/sA3.svg" alt="j" width={50} height={50}></Image>
 
