@@ -24,6 +24,54 @@ import ronniCantadoreImage from '@/images/avatars/ronni-cantadore.jpg'
 import stevenMchailImage from '@/images/avatars/steven-mchail.jpg'
 import waylonHydenImage from '@/images/avatars/waylon-hyden.jpg'
 
+const speakers = {
+  "LegalLab": {
+    "_id": "LegalLab",
+    "name": "Legal Lab",
+    "role": "",
+    "image": "",
+    "linkedin": "https://www.linkedin.com/showcase/usfq-jurisprudencia/"
+  },
+  "DiegoJaramillo": {
+    "_id": "DiegoJaramillo",
+    "name": "Diego Jaramillo",
+    "role": "",
+    "image": "",
+    "linkedin": ""
+  },
+  "XavierAndrade": {
+    "_id": "XavierAndrade",
+    "name": "Xavier Andrade",
+    "linkedin": ""
+  },
+  "FranciscoAlmeida": {
+    "_id": "FranciscoAlmeida",
+    "name": "Francisco Almeida",
+    "linkedin": "https://www.linkedin.com/showcase/usfq-jurisprudencia/"
+  },
+  "JoseAdatty": {
+    "_id": "JoseAdatty",
+    "name": "Jose Adatty",
+    "linkedin": "https://equity.ec/"
+  },
+  "FelipeOleas": {
+    "_id": "FelipeOleas",
+    "name": "Felipe Oleas",
+    "linkedin": "https://equity.ec/"
+  },
+  "MiguelVillegas": {
+    "_id": "MiguelVillegas",
+    "name": "Miguel Villegas",
+    "linkedin": "https://www.linkedin.com/in/miguel-%C3%A1ngel-villegas-4984b1199/"
+  },
+  "JoseSebastianPonce": {
+    "_id": "JoseSebastianPonce",
+    "name": "Jose Sebastian Ponce",
+    "linkedin": ""
+  }
+}
+
+
 const days = [
   {
     name: 'Opening Day',

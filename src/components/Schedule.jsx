@@ -6,53 +6,6 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background.jpg'
 
-const speakers = [
-  {
-    "_id": "LegalLab",
-    "name": "Legal Lab",
-    "role": "",
-    "image": "",
-    "linkedin": "https://www.linkedin.com/showcase/usfq-jurisprudencia/"
-  },
-  {
-    "_id": "DiegoJaramillo",
-    "name": "Diego Jaramillo",
-    "role": "",
-    "image": "",
-    "linkedin": ""
-  },
-  {
-    "_id": "XavierAndrade",
-    "name": "Xavier Andrade",
-    "linkedin": ""
-  },
-  {
-    "_id": "FranciscoAlmeida",
-    "name": "Francisco Almeida",
-    "linkedin": "https://www.linkedin.com/showcase/usfq-jurisprudencia/"
-  },
-  {
-    "_id": "JoseAdatty",
-    "name": "Jose Adatty",
-    "linkedin": "https://equity.ec/"
-  },
-  {
-    "_id": "FelipeOleas",
-    "name": "Felipe Oleas",
-    "linkedin": "https://equity.ec/"
-  },
-  {
-    "_id": "MiguelVillegas",
-    "name": "Miguel Villegas",
-    "linkedin": "https://www.linkedin.com/in/miguel-%C3%A1ngel-villegas-4984b1199/"
-  },
-  {
-    "_id": "JoseSebastianPonce",
-    "name": "Jose Sebastian Ponce",
-    "linkedin": ""
-  }
-]
-
 
 const schedule = [
   {
