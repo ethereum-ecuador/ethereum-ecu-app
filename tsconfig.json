@@ -18,6 +18,8 @@
     "paths": {
       "@/*": ["./*"],
       "@components/*": ["components/*"],
+      "@models/*":["models/*"],
+      "@data/*":["data/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
