@@ -1,70 +1,48 @@
-import React, { useState, useEffect } from 'react'
-import { DesktopNavbar } from './desktop-navbar.component'
-import { MobileNavbar } from './mobile-navbar.component'
-import { links } from './navbar.lib'
+import React, { useState, useEffect } from 'react';
+import { DesktopNavbar } from './desktop-navbar.component';
+import { MobileNavbar } from './mobile-navbar.component';
+import { links } from './navbar.lib';
 
-export function Navbar() {
-  const [_, setScroll] = useState(0)
-  const [background, setBackground] = useState('transparent')
+
+export const Navbar = () => {
+  const [scroll, setScroll] = useState(0);
+  const [background, setBackground] = useState('transparent');
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll)
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll)
-    }
-  }, [background])
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [background]);
 
   const handleScroll = () => {
-    const newScroll = window.screenY
-    setScroll(newScroll)
-    if (newScroll > 100) {
-      setBackground('#241132')
+    const newScroll = window.pageYOffset;
+    setScroll(newScroll);
+    if (newScroll > 50) {
+      setBackground('bg-[#241132]');
     } else {
-      setBackground('transparent')
+      setBackground('bg-transparent');
     }
-  }
+  };
 
   return (
-    <>
-      <div
-        className="navbar"
-        style={{
-          color: 'white',
-          background,
-          position: 'fixed',
-          top: 0,
-          width: '100%',
-          zIndex: 100,
-        }}
-      >
-        <div className="mobile-navbar">
-          <MobileNavbar links={links} />
-        </div>
-        <div className="desktop-navbar">
-          <DesktopNavbar links={links} />
-        </div>
-      </div>
-      <style jsx>
-        {`
-          .navbar {
-            transition: background 0.6s ease;
-          }
-          .mobile-navbar {
-            display: block;
-          }
-          .desktop-navbar {
-            display: none;
-          }
-          @media (min-width: 768px) {
-            .mobile-navbar {
-              display: none;
-            }
-            .desktop-navbar {
-              display: block;
-            }
-          }
-        `}
-      </style>
-    </>
-  )
+    <header className={`w-full z-40 top-0 fixed transition-colors duration-500 ease-in-out ${background}`}>
+      <nav className='w-full text-white py-4'>
+        <span className="block md:hidden">
+            <MobileNavbar links={links} />
+        </span>
+        <span className="hidden md:block">
+          <div className="flex flex-row items-center justify-between px-6">
+            <DesktopNavbar links={links} />
+          </div>
+        </span>
+      </nav>
+    </header>
+  );
+};
+
+
+export interface LinkProps {
+  name: string;
+  href: string;
 }

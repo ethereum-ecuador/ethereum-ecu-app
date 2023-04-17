@@ -1,29 +1,23 @@
-import React, { useState } from 'react'
-import Image from 'next/image'
-import { NavbarProps } from './navbar.type'
+import React, { useState } from 'react';
+import LogoWithText from '@components/common/logo/LogoWithText';
+import { LinkProps, NavbarProps } from './navbar.type'
 import { nanoid } from 'nanoid'
 
-export function MobileNavbar({ links }: NavbarProps) {
-  const [isOpen, setIsOpen] = useState(false)
+export const MobileNavbar = ({ links }: NavbarProps) => {
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header
-      className="fixed top-0 z-10 w-full bg-transparent"
-      style={{ padding: '0 1rem' }}
-    >
-      <nav className="container mx-auto flex items-center justify-between px-4 py-4">
-        <div className="flex flex-row items-center font-bold text-white">
-          <a href="#" className="text-xl">
-            <Image src="/images/logo.png" alt="" width={25} height={25} />
-          </a>
-          <span style={{ marginLeft: '10px' }}>ETH Tricolor</span>
-        </div>
+    <>
+      <div className="w-full z-10 flex justify-between items-center px-6">
+        <LogoWithText />
         <button
-          className="focus:outline-none md:hidden"
-          onClick={() => setIsOpen(!isOpen)}
+          className="md:hidden focus:outline-none z-50"
+          onClick={() => {
+            setIsOpen(!isOpen)
+          }}
         >
           <svg
-            className="h-6 w-6 text-white"
+            className="w-6 h-6 text-white"
             fill="none"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -38,20 +32,18 @@ export function MobileNavbar({ links }: NavbarProps) {
             )}
           </svg>
         </button>
-        <ul
-          className={`space-x-8 text-white md:flex ${
-            isOpen ? 'block' : 'hidden'
-          }`}
-        >
-          {links.map((link) => (
-            <li style={{ margin: 0 }} key={`${link.name}-${nanoid()}`}>
-              <a href={link.href} className="hover:text-blue-300">
+      </div>
+      <div className="w-full z-10 flex justify-center items-center bg-[#241132]">
+        <ul className={`md:flex text-white text-lg font-semibold  ${isOpen ? 'block' : 'hidden'}`}>
+          {links.map((link: LinkProps) => (
+            <li className='text-center' key={`${link.name}-${nanoid()}`}>
+              <a href={link.href} className="hover:text-blue-300 " onClick={() => setIsOpen(false)}>
                 {link.name}
               </a>
             </li>
           ))}
         </ul>
-      </nav>
-    </header>
-  )
-}
+      </div>
+    </>
+  );
+};
