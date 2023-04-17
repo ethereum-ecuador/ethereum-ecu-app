@@ -8,7 +8,7 @@ export const MobileNavbar = ({ links }: NavbarProps) => {
 
   return (
     <>
-      <div className="w-full z-10 flex justify-between items-center">
+      <div className="w-full z-10 flex justify-between items-center px-6">
         <LogoWithText />
         <button
           className="md:hidden focus:outline-none z-50"

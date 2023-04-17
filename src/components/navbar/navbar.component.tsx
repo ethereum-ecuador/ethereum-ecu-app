@@ -27,12 +27,12 @@ export const Navbar = () => {
 
   return (
     <header className={`w-full z-40 top-0 fixed transition-colors duration-500 ease-in-out ${background}`}>
-      <nav className='w-full text-white py-4 px-6'>
+      <nav className='w-full text-white py-4'>
         <span className="block md:hidden">
             <MobileNavbar links={links} />
         </span>
         <span className="hidden md:block">
-          <div className="flex flex-row items-center justify-between">
+          <div className="flex flex-row items-center justify-between px-6">
             <DesktopNavbar links={links} />
           </div>
         </span>

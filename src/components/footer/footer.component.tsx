@@ -8,7 +8,7 @@ export function Footer() {
         <span className=''>
           <LogoWithText />
         </span>
-        <ul className="w-3/5 flex flex-wrap gap-6 justify-center md:justify-end items-center text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+        <ul className="w-3/5 flex flex-wrap gap-2 sm:gap-6 justify-center md:justify-end items-center text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
           {links.map((link) => (
             <li key={`f-${link}`}>
               <a href={link.href} className="hover:underline">{link.name}</a>
