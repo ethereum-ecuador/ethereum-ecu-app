@@ -1,5 +1,5 @@
 import React from 'react'
-import LogoWithText from '@/components/common/logo/logo-with-text';
+import { LogoWithText } from '@/components/common/logo';
 import { LinkProps, NavbarProps } from './navbar.type'
 
 export function DesktopNavbar({ links }: NavbarProps) {
