@@ -1,10 +1,10 @@
 import Head from 'next/head'
 
-import { Footer } from '@/components/Footer'
-import { Navbar } from '@/components/navbar/Navbar'
+import { Footer } from '@/components/footer/footer.component'
+import { Navbar } from '@/components/navbar/navbar.component'
 import { Hero } from '@/components/Hero'
 // import { Newsletter } from '@/components/Newsletter'
-import { Schedule } from '@/components/Schedule'
+import { Schedule } from '@/components/schedule/Schedule'
 import { Sponsors } from '@/components/Sponsors'
 import About from '@/components/About'
 import { Speakers } from '@/components/speakers/Speakers'
@@ -39,7 +39,7 @@ export default function Home() {
         <Hero />
         <About />
         <Speakers />
-        <Schedule />
+        {/* <Schedule /> */}
         <Sponsors data={data.hosts} title={"Anfitriones"} section={"hosts"} />
         <Sponsors data={data.sponsors} title={"Sponsors"} section={"sponsors"} />
         <Sponsors data={data.allies} title={"Aliados Estratégicos"} section={"sponsors"} />

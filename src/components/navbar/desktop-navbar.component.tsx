@@ -1,9 +1,8 @@
-import Image from 'next/image';
 import React from 'react'
 import LogoWithText from '@components/common/logo/LogoWithText';
-import { LinkProps } from './Navbar';
+import { LinkProps, NavbarProps } from './navbar.type'
 
-export function DesktopNavbar({ links }: { links: LinkProps[] }) {
+export function DesktopNavbar({ links }: NavbarProps) {
   return (
     <>
       <LogoWithText />

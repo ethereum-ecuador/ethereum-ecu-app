@@ -1,13 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { DesktopNavbar } from './DesktopNavbar';
-import { MobileNavbar } from './MobileNavbar';
+import { DesktopNavbar } from './desktop-navbar.component';
+import { MobileNavbar } from './mobile-navbar.component';
+import { links } from './navbar.lib';
 
-const links = [
-  { name: 'Inicio', href: '#' },
-  { name: 'Cronograma', href: '#schedule' },
-  { name: 'Speakers', href: '#speakers' },
-  { name: 'Sponsors', href: '#sponsors' },
-]
 
 export const Navbar = () => {
   const [scroll, setScroll] = useState(0);

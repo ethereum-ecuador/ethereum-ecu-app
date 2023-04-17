@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
+import { nanoid } from 'nanoid'
 
 import { Container } from '@/components/common/Container'
 import backgroundImage from '@/images/background.jpg'
@@ -11,8 +12,7 @@ const schedule = [
   {
     date: 'Mayo 15',
     dateTime: '',
-    summary:
-      '',
+    summary: '',
     timeSlots: [
       {
         name: '',
@@ -288,7 +288,7 @@ function ScheduleTabbed() {
         {({ selectedIndex }) =>
           schedule.map((day, dayIndex) => (
             <div
-              key={day.dateTime}
+              key={dayIndex}
               className={clsx(
                 'relative w-3/4 flex-none pr-4 sm:w-auto sm:pr-0',
                 dayIndex !== selectedIndex && 'opacity-70'
@@ -312,7 +312,7 @@ function ScheduleTabbed() {
       <Tab.Panels>
         {schedule.map((day) => (
           <Tab.Panel
-            key={day.dateTime}
+            key={nanoid()}
             className="[&:not(:focus-visible)]:focus:outline-none"
           >
             <TimeSlots day={day} />
@@ -349,7 +349,7 @@ function TimeSlots({ day, className }) {
     >
       {day.timeSlots.map((timeSlot, timeSlotIndex) => (
         <li
-          key={timeSlot.start}
+          key={`${nanoid()}-${timeSlot.start}`}
           aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end} PST`}
         >
           {timeSlotIndex > 0 && (
@@ -383,7 +383,7 @@ function ScheduleStatic() {
   return (
     <div className="hidden lg:grid lg:grid-cols-3 lg:gap-x-8">
       {schedule.map((day) => (
-        <section key={day.dateTime}>
+        <section key={nanoid()}>
           <DaySummary day={day} />
           <TimeSlots day={day} className="mt-10" />
         </section>

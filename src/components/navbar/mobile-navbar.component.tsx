@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import LogoWithText from '@components/common/logo/LogoWithText';
-import { LinkProps } from './Navbar';
+import { LinkProps, NavbarProps } from './navbar.type'
+import { nanoid } from 'nanoid'
 
-export const MobileNavbar = ({ links }: { links: LinkProps[] }) => {
+export const MobileNavbar = ({ links }: NavbarProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -35,7 +36,7 @@ export const MobileNavbar = ({ links }: { links: LinkProps[] }) => {
       <div className="w-full z-10 flex justify-center items-center bg-[#241132]">
         <ul className={`md:flex text-white text-lg font-semibold  ${isOpen ? 'block' : 'hidden'}`}>
           {links.map((link: LinkProps) => (
-            <li className='text-center' key={link.name}>
+            <li className='text-center' key={`${link.name}-${nanoid()}`}>
               <a href={link.href} className="hover:text-blue-300 " onClick={() => setIsOpen(false)}>
                 {link.name}
               </a>
