@@ -1,21 +1,19 @@
 import React, { useState } from 'react';
-import Image from 'next/image';
+import LogoWithText from '@components/common/logo/LogoWithText';
+import { LinkProps } from './Navbar';
 
-export const MobileNavbar = ({ links }:{ links:any }) => {
+export const MobileNavbar = ({ links }: { links: LinkProps[] }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-transparent w-full z-10 top-0 fixed" style={{padding:'0 1rem'}}>
-      <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="text-white font-bold flex flex-row items-center">
-            <a href="#" className="text-xl">
-            <Image src="/images/logo.png" alt="" width={25} height={25}/>
-            </a>                                
-            <span style={{marginLeft:'10px'}}>ETH Tricolor</span>
-        </div>
+    <>
+      <div className="w-full z-10 flex justify-between items-center">
+        <LogoWithText />
         <button
-          className="md:hidden focus:outline-none"
-          onClick={() => setIsOpen(!isOpen)}
+          className="md:hidden focus:outline-none z-50"
+          onClick={() => {
+            setIsOpen(!isOpen)
+          }}
         >
           <svg
             className="w-6 h-6 text-white"
@@ -33,17 +31,18 @@ export const MobileNavbar = ({ links }:{ links:any }) => {
             )}
           </svg>
         </button>
-        <ul className={`md:flex space-x-8 text-white ${isOpen ? 'block' : 'hidden'}`}>
-            {links.map((link:any) => (
-                <li style={{margin:0}} key={link.id}>
-                    <a href={link.href} className="hover:text-blue-300">
-                        {link.name}
-                    </a>
-                </li>
-            ))}
+      </div>
+      <div className="w-full z-10 flex justify-center items-center bg-[#241132]">
+        <ul className={`md:flex text-white text-lg font-semibold  ${isOpen ? 'block' : 'hidden'}`}>
+          {links.map((link: LinkProps) => (
+            <li className='text-center' key={link.name}>
+              <a href={link.href} className="hover:text-blue-300 " onClick={() => setIsOpen(false)}>
+                {link.name}
+              </a>
+            </li>
+          ))}
         </ul>
-      </nav>
-    </header>
+      </div>
+    </>
   );
 };
-

@@ -31,6 +31,9 @@ module.exports = {
       maxWidth: {
         '2xl': '40rem',
       },
+      scrollBehavior: {
+        smooth: 'smooth',
+      },
     },
   },
   plugins: [],

@@ -35,20 +35,19 @@ export function Speakers(): JSX.Element {
     <section
       id="speakers"
       aria-labelledby="speakers-title"
-      className="py-20 sm:py-32 opacity-100"
+      className="py-20 sm:py-32 opacity-100 bg-[#241132]"
     >
       <ImageClipPaths id={id} />
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
             id="speakers-title"
-            className="font-display text-4xl font-medium tracking-tighter text-white sm:text-5xl"
+            className="text-center md:text-left font-display text-4xl font-medium tracking-tighter text-white sm:text-5xl"
           >
             Speakers
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-white">
-            Learn from the experts on the cutting-edge of deception at the most
-            sinister companies.
+            
           </p>
         </div>
         <Tab.Group

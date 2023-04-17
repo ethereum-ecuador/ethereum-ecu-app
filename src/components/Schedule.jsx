@@ -326,12 +326,14 @@ function ScheduleTabbed() {
 function DaySummary({ day }) {
   return (
     <>
-      <h3 className="text-2xl font-semibold tracking-tight text-blue-900">
-        <time dateTime={day.dateTime}>{day.date}</time>
-      </h3>
-      <p className="mt-1.5 text-base tracking-tight text-blue-900">
-        {day.summary}
-      </p>
+      <div className='px-5'>
+        <h3 className="text-2xl font-semibold tracking-tight text-blue-900">
+          <time dateTime={day.dateTime}>{day.date}</time>
+        </h3>
+        <p className="mt-1.5 text-base tracking-tight text-blue-900">
+          {day.summary}
+        </p>
+      </div>
     </>
   )
 }
@@ -383,7 +385,7 @@ function ScheduleStatic() {
       {schedule.map((day) => (
         <section key={day.dateTime}>
           <DaySummary day={day} />
-          <TimeSlots day={day} className="mt-10" /> 
+          <TimeSlots day={day} className="mt-10" />
         </section>
       ))}
     </div>
@@ -392,18 +394,13 @@ function ScheduleStatic() {
 
 export function Schedule() {
   return (
-    <section id="schedule" aria-label="Schedule" className="py-20 sm:py-32">
-      <Container className="relative z-10">
-        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
-          <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
-            Una semana de charlas relacionadas a Ethereum y web3
-          </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            Calendario de charlas y workshops de la road to blockchain week
-          </p>
-        </div>
-      </Container>
-      <div className="relative mt-14 sm:mt-24">
+    <section id="schedule" aria-label="Schedule" className="py-10 sm:py-20">
+      <div className="relative z-10">
+        <h2 className="text-center py-5 font-display text-4xl font-bold md:text-4xl tracking-tighter text-blue-600 sm:text-5xl">
+          Cronograma
+        </h2>
+      </div>
+      <div className="relative mt-5 sm:mt-16">
         <div className="absolute inset-x-0 -bottom-32 -top-40 overflow-hidden bg-indigo-50">
           <Image
             className="absolute left-full top-0 -translate-x-1/2 sm:left-1/2 sm:translate-x-[-20%] sm:translate-y-[-15%] md:translate-x-0 lg:translate-x-[5%] lg:translate-y-[4%] xl:translate-x-[27%] xl:translate-y-[-8%]"
