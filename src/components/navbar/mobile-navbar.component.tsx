@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import LogoWithText from '@components/common/logo/LogoWithText';
+import LogoWithText from '@/components/common/logo/logo-with-text';
 import { LinkProps, NavbarProps } from './navbar.type'
 import { nanoid } from 'nanoid'
 
