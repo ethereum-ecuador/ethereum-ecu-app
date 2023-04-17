@@ -5,7 +5,7 @@ import { Navbar } from '@/components/navbar'
 import { Hero } from '@/components/hero'
 import { Newsletter } from '@/components/Newsletter'
 import { Schedule } from '@/components/schedule'
-import { Sponsors } from '@/components/Sponsors'
+import { Sponsors } from '@/components/sponsors'
 import { Speakers } from '@/components/speakers'
 import About from '@/components/about/about.component'
 
@@ -26,7 +26,7 @@ export default function Home() {
         <Speakers />
         <Schedule />
         <Sponsors />
-        <Newsletter />
+        {/* <Newsletter /> */}
       </main>
       <Footer />
     </>
