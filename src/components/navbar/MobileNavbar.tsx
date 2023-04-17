@@ -10,7 +10,7 @@ export const MobileNavbar = ({ links }:{ links:any }) => {
         <div className="text-white font-bold flex flex-row items-center">
             <a href="#" className="text-xl">
             <Image src="/images/logo.png" alt="" width={25} height={25}/>
-            </a>
+            </a>                                
             <span style={{marginLeft:'10px'}}>ETH Tricolor</span>
         </div>
         <button
