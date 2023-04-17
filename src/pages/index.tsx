@@ -2,10 +2,11 @@ import Head from 'next/head'
 
 import { Footer } from '@/components/footer'
 import { Navbar } from '@/components/navbar'
-import { Hero } from '@/components/Hero'
+import { Hero } from '@/components/hero'
 import { Newsletter } from '@/components/Newsletter'
 import { Schedule } from '@/components/schedule'
 import { Sponsors } from '@/components/Sponsors'
+import { Speakers } from '@/components/speakers'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <Speakers />
         <Schedule />
         <Sponsors />
         <Newsletter />
