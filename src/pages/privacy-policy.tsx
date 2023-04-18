@@ -1,6 +1,7 @@
 import { Container } from '@/components/Container'
 import { Footer } from '@/components/footer'
 import { Navbar } from '@/components/navbar'
+import { Paragraph } from '@/components/paragraph'
 import Head from 'next/head'
 
 export default function PrivacyPolicy() {
@@ -12,7 +13,7 @@ export default function PrivacyPolicy() {
       </Head>
       <Navbar hasBackground />
       <main>
-        <section id="about" className="px-5 py-10 sm:py-20">
+        <section id="about" className="px-5 py-24">
           <Container className="relative z-10">
             <div className="flex flex-col items-center justify-center gap-2">
               <h2 className="text-center font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl md:text-5xl">
@@ -31,7 +32,7 @@ export default function PrivacyPolicy() {
                 subtitle="3.	TERCERA.- SERVICIOS OFRECIDOS"
                 paragraph={`Ethereum mitad del mundo S.A.S B.I.C ofrece a través de su sitio web los siguientes servicios:`}
               >
-                <ul>
+                <ul className="list-disc">
                   <li>
                     Difusión, desarrollo, creación y comunicación de eventos,
                     talleres, cursos y demás.
@@ -64,7 +65,7 @@ export default function PrivacyPolicy() {
                 subtitle="6.	SEXTA.- RESPONSABILIDAD"
                 paragraph={`Ethereum mitad del mundo S.A.S B.I.C no será responsable, en ningún caso, de:`}
               >
-                <ul>
+                <ul className="list-disc">
                   <li>
                     Los daños y perjuicios de cualquier tipo que puedan
                     derivarse del acceso, uso o mal uso del sitio web o de sus
@@ -100,56 +101,59 @@ export default function PrivacyPolicy() {
                 paragraph={`Para cualquier consulta o comunicación relacionada con los presentes Términos y Condiciones, el usuario podrá contactar con Ethereum mitad del mundo S.A.S B.I.C a través de la dirección de correo electrónico support@eth-tricolor.org`}
               />
               <Paragraph
-                subtitle="4.	CUARTA.- REGISTRO DE USUARIOS Y PROTECCIÓN DE DATOS"
+                subtitle="9.	NOVENA.- INTEGRIDAD DEL ACUERDO"
+                paragraph={`Si alguna disposición de estos Términos y Condiciones es considerada inválida o inaplicable por un tribunal de justicia competente, dicha disposición será eliminada o limitada en la medida mínima necesaria, y las disposiciones restantes continuarán en pleno vigor y efecto.`}
+              />
+              <Paragraph
+                subtitle="10.	DÉCIMA.- RENUNCIA"
+                paragraph={`La falta de ejercicio o aplicación de cualquier derecho o disposición contenida en estos Términos y Condiciones por parte de Ethereum mitad del mundo S.A.S B.I.C no constituirá una renuncia a dicho derecho o disposición.`}
+              />
+              <Paragraph
+                subtitle="11.	DÉCIMO PRIMERA.- CESIÓN"
                 paragraph={`Para acceder a determinados servicios ofrecidos por Ethereum mitad del mundo S.A.S B.I.C a través de su sitio web, el usuario deberá registrarse y proporcionar información personal. Ethereum mitad del mundo S.A.S B.I.C tratará los datos personales del usuario de acuerdo con su Política de Privacidad, la cual forma parte integral de estos Términos y Condiciones.`}
               />
               <Paragraph
-                subtitle="4.	CUARTA.- REGISTRO DE USUARIOS Y PROTECCIÓN DE DATOS"
-                paragraph={`Para acceder a determinados servicios ofrecidos por Ethereum mitad del mundo S.A.S B.I.C a través de su sitio web, el usuario deberá registrarse y proporcionar información personal. Ethereum mitad del mundo S.A.S B.I.C tratará los datos personales del usuario de acuerdo con su Política de Privacidad, la cual forma parte integral de estos Términos y Condiciones.`}
+                subtitle="12.	DÉCIMO SEGUNDA.- TÍTULOS"
+                paragraph="Los títulos de las cláusulas de estos Términos y Condiciones son meramente informativos y no afectan a la interpretación de las disposiciones contenidas en ellas."
               />
               <Paragraph
-                subtitle="4.	CUARTA.- REGISTRO DE USUARIOS Y PROTECCIÓN DE DATOS"
-                paragraph={`Para acceder a determinados servicios ofrecidos por Ethereum mitad del mundo S.A.S B.I.C a través de su sitio web, el usuario deberá registrarse y proporcionar información personal. Ethereum mitad del mundo S.A.S B.I.C tratará los datos personales del usuario de acuerdo con su Política de Privacidad, la cual forma parte integral de estos Términos y Condiciones.`}
+                subtitle="13.	DÉCIMO TERCERA.- MODIFICACIÓN DE LOS TÉRMINOS Y CONDICIONES"
+                paragraph={`Ethereum mitad del mundo S.A.S B.I.C se reserva el derecho de modificar, en cualquier momento y sin previo aviso, estos Términos y Condiciones. Los usuarios estarán sujetos a las condiciones vigentes en el momento de acceso al sitio web o de la contratación de los servicios ofrecidos. La utilización del sitio web y/o de los servicios ofrecidos después de la publicación de modificaciones constituirá la aceptación de las nuevas condiciones por parte del usuario.`}
               />
               <Paragraph
-                subtitle="4.	CUARTA.- REGISTRO DE USUARIOS Y PROTECCIÓN DE DATOS"
-                paragraph={`Para acceder a determinados servicios ofrecidos por Ethereum mitad del mundo S.A.S B.I.C a través de su sitio web, el usuario deberá registrarse y proporcionar información personal. Ethereum mitad del mundo S.A.S B.I.C tratará los datos personales del usuario de acuerdo con su Política de Privacidad, la cual forma parte integral de estos Términos y Condiciones.`}
+                subtitle="14.	DÉCIMO CUARTA.- PRIVACIDAD Y PROTECCIÓN DE DATOS PERSONALES"
+                paragraph={`Ethereum mitad del mundo S.A.S B.I.C se compromete a proteger la privacidad y los datos personales de los usuarios de acuerdo con la legislación aplicable. Para obtener información detallada sobre cómo Ethereum mitad del mundo S.A.S B.I.C recopila, utiliza y protege los datos personales, los usuarios deben consultar la Política de Privacidad publicada en el sitio web.`}
               />
               <Paragraph
-                subtitle="4.	CUARTA.- REGISTRO DE USUARIOS Y PROTECCIÓN DE DATOS"
-                paragraph={`Para acceder a determinados servicios ofrecidos por Ethereum mitad del mundo S.A.S B.I.C a través de su sitio web, el usuario deberá registrarse y proporcionar información personal. Ethereum mitad del mundo S.A.S B.I.C tratará los datos personales del usuario de acuerdo con su Política de Privacidad, la cual forma parte integral de estos Términos y Condiciones.`}
+                subtitle="15.	DÉCIMO QUINTA.- SUSPENSIÓN Y TERMINACIÓN"
+                paragraph={`Ethereum mitad del mundo S.A.S B.I.C se reserva el derecho de suspender o terminar, total o parcialmente, el acceso al sitio web o la prestación de servicios en caso de incumplimiento por parte del usuario de estos Términos y Condiciones, así como de tomar las medidas legales que considere oportunas en caso de infracción.`}
               />
               <Paragraph
-                subtitle="4.	CUARTA.- REGISTRO DE USUARIOS Y PROTECCIÓN DE DATOS"
-                paragraph={`Para acceder a determinados servicios ofrecidos por Ethereum mitad del mundo S.A.S B.I.C a través de su sitio web, el usuario deberá registrarse y proporcionar información personal. Ethereum mitad del mundo S.A.S B.I.C tratará los datos personales del usuario de acuerdo con su Política de Privacidad, la cual forma parte integral de estos Términos y Condiciones.`}
+                subtitle="16.	DÉCIMO SEXTA.- DERECHO DE ADMISIÓN"
+                paragraph={`Ethereum mitad del mundo S.A.S B.I.C se reserva el derecho de admisión y exclusión de usuarios a su sitio web y a los servicios ofrecidos, sin necesidad de previo aviso, en caso de incumplimiento de los presentes Términos y Condiciones o por cualquier otra razón que, a criterio de Ethereum mitad del mundo S.A.S B.I.C , pueda poner en riesgo la integridad, seguridad o buen funcionamiento del sitio web y los servicios.`}
               />
               <Paragraph
-                subtitle="4.	CUARTA.- REGISTRO DE USUARIOS Y PROTECCIÓN DE DATOS"
-                paragraph={`Para acceder a determinados servicios ofrecidos por Ethereum mitad del mundo S.A.S B.I.C a través de su sitio web, el usuario deberá registrarse y proporcionar información personal. Ethereum mitad del mundo S.A.S B.I.C tratará los datos personales del usuario de acuerdo con su Política de Privacidad, la cual forma parte integral de estos Términos y Condiciones.`}
+                subtitle="17.	DÉCIMO SEPTIMA.- SERVICIOS DE TERCEROS"
+                paragraph={`Ethereum mitad del mundo S.A.S B.I.C puede ofrecer o recomendar servicios de terceros a través de su sitio web. En estos casos, los usuarios estarán sujetos a los términos y condiciones de esos terceros, y Ethereum mitad del mundo S.A.S B.I.C no será responsable de la calidad, exactitud o cumplimiento de dichos servicios.`}
               />
               <Paragraph
-                subtitle="4.	CUARTA.- REGISTRO DE USUARIOS Y PROTECCIÓN DE DATOS"
-                paragraph={`Para acceder a determinados servicios ofrecidos por Ethereum mitad del mundo S.A.S B.I.C a través de su sitio web, el usuario deberá registrarse y proporcionar información personal. Ethereum mitad del mundo S.A.S B.I.C tratará los datos personales del usuario de acuerdo con su Política de Privacidad, la cual forma parte integral de estos Términos y Condiciones.`}
+                subtitle="18.	DÉCIMO OCTAVA.- VIGENCIA"
+                paragraph={`Los presentes Términos y Condiciones estarán vigentes mientras no sean modificados o sustituidos por otros nuevos. Ethereum mitad del mundo S.A.S B.I.C se reserva el derecho de modificar o sustituir estos Términos y Condiciones en cualquier momento y sin previo aviso.`}
               />
               <Paragraph
-                subtitle="4.	CUARTA.- REGISTRO DE USUARIOS Y PROTECCIÓN DE DATOS"
-                paragraph={`Para acceder a determinados servicios ofrecidos por Ethereum mitad del mundo S.A.S B.I.C a través de su sitio web, el usuario deberá registrarse y proporcionar información personal. Ethereum mitad del mundo S.A.S B.I.C tratará los datos personales del usuario de acuerdo con su Política de Privacidad, la cual forma parte integral de estos Términos y Condiciones.`}
+                subtitle="19.	DECIMO NOVENA.- INDEPENDENCIA"
+                paragraph={`En caso de que cualquier disposición de estos Términos y Condiciones sea declarada nula, ilegal o inaplicable por un tribunal o autoridad competente, dicha declaración no afectará al resto de disposiciones, que continuarán siendo válidas y aplicables en la medida en que lo permita la ley.`}
               />
               <Paragraph
-                subtitle="4.	CUARTA.- REGISTRO DE USUARIOS Y PROTECCIÓN DE DATOS"
-                paragraph={`Para acceder a determinados servicios ofrecidos por Ethereum mitad del mundo S.A.S B.I.C a través de su sitio web, el usuario deberá registrarse y proporcionar información personal. Ethereum mitad del mundo S.A.S B.I.C tratará los datos personales del usuario de acuerdo con su Política de Privacidad, la cual forma parte integral de estos Términos y Condiciones.`}
+                subtitle="20.	VIGÉSIMA.- LEY APLICABLE Y JURISDICCIÓN"
+                paragraph={`Estos Términos y Condiciones se regirán e interpretarán de acuerdo con las leyes de la Republica del Ecuador en el que se encuentre registrada Ethereum mitad del mundo S.A.S B.I.C . Cualquier controversia o reclamación que surja o esté relacionada con estos Términos y Condiciones, su objeto o su ejecución, será resuelta por los tribunales competentes del mismo país.`}
               />
               <Paragraph
-                subtitle="4.	CUARTA.- REGISTRO DE USUARIOS Y PROTECCIÓN DE DATOS"
-                paragraph={`Para acceder a determinados servicios ofrecidos por Ethereum mitad del mundo S.A.S B.I.C a través de su sitio web, el usuario deberá registrarse y proporcionar información personal. Ethereum mitad del mundo S.A.S B.I.C tratará los datos personales del usuario de acuerdo con su Política de Privacidad, la cual forma parte integral de estos Términos y Condiciones.`}
+                subtitle="21.	VIGÉSIMA PRIMERA.- CONTACTO"
+                paragraph={`Si tiene alguna pregunta, comentario o sugerencia sobre estos Términos y Condiciones, por favor póngase en contacto con Ethereum mitad del mundo S.A.S B.I.C a través de la sección de contacto en nuestro sitio web o por correo electrónico a la dirección proporcionada en el mismo.`}
               />
               <Paragraph
-                subtitle="4.	CUARTA.- REGISTRO DE USUARIOS Y PROTECCIÓN DE DATOS"
-                paragraph={`Para acceder a determinados servicios ofrecidos por Ethereum mitad del mundo S.A.S B.I.C a través de su sitio web, el usuario deberá registrarse y proporcionar información personal. Ethereum mitad del mundo S.A.S B.I.C tratará los datos personales del usuario de acuerdo con su Política de Privacidad, la cual forma parte integral de estos Términos y Condiciones.`}
-              />
-              <Paragraph
-                subtitle="4.	CUARTA.- REGISTRO DE USUARIOS Y PROTECCIÓN DE DATOS"
-                paragraph={`Para acceder a determinados servicios ofrecidos por Ethereum mitad del mundo S.A.S B.I.C a través de su sitio web, el usuario deberá registrarse y proporcionar información personal. Ethereum mitad del mundo S.A.S B.I.C tratará los datos personales del usuario de acuerdo con su Política de Privacidad, la cual forma parte integral de estos Términos y Condiciones.`}
+                paragraph={`Al utilizar este sitio web y/o contratar los servicios ofrecidos por Ethereum mitad del mundo S.A.S B.I.C , usted reconoce haber leído, entendido y aceptado de manera libre, específica, informada e inequívoca cestos Términos y Condiciones en su totalidad. Si no está de acuerdo con alguna parte de estos Términos y Condiciones, debe abstenerse de utilizar el sitio web y/o los servicios ofrecidos.`}
               />
             </div>
           </Container>
@@ -157,29 +161,5 @@ export default function PrivacyPolicy() {
       </main>
       <Footer />
     </>
-  )
-}
-
-function Paragraph({
-  subtitle,
-  paragraph,
-  children,
-}: {
-  subtitle: string
-  paragraph: string
-  children?: React.ReactNode
-}) {
-  return (
-    <div className="flex flex-col">
-      <h2 className="font-display text-2xl font-medium tracking-tighter text-blue-600 md:text-3xl">
-        {subtitle}
-      </h2>
-      <p className="mb-4 text-justify font-display text-base font-normal tracking-tight text-blue-900">
-        {paragraph}
-      </p>
-      <div className="mb-4 text-justify font-display text-base font-normal tracking-tight text-blue-900">
-        {children}
-      </div>
-    </div>
   )
 }
