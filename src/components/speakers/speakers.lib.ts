@@ -132,20 +132,20 @@ export const speakerById: { [key: string]: Speaker } = {
         image: "/images/speakers/vladimir-luna.jpg",
         linkedin: "https://www.linkedin.com/in/vladimirlunapmp/",
     },
-    JoseNaranjo: {
+    JoseIgnacioNaranjo: {
         id: "JoseNaranjo",
-        name: "Jose Naranjo",
+        name: "José Ignacio Naranjo",
         role: "",
         // image: "/images/speakers/jose-naranjo.jpg",
-        image: "/images/speakers/default.png",
-        linkedin: "https://www.linkedin.com/in/altair-barahona/",
+        image: "/images/speakers/JN.jpg",
+        linkedin: "https://ec.linkedin.com/in/jose-ignacio-naranjo-martinez-30bb17272",
     },
     AltairBarahona: {
         id: "AltairBarahona",
         name: "Altair Barahona",
         role: "",
         // image: "/images/speakers/altair-barahona.jpg",
-        image: "/images/speakers/default.png",
+        image: "/images/speakers/Altair.jpeg",
         linkedin: "https://www.linkedin.com/in/altair-barahona/",
     },
     RommelDeLosRios: {
@@ -153,7 +153,7 @@ export const speakerById: { [key: string]: Speaker } = {
         name: "Rommel De Los Rios",
         role: "",
         // image: "/images/speakers/rommel-de-los-rios.jpg",
-        image: "/images/speakers/default.png",
+        image: "/images/speakers/Rommel.jpeg",
         linkedin: "",
     },
     RicardoRuano: {
@@ -164,5 +164,13 @@ export const speakerById: { [key: string]: Speaker } = {
         image: "/images/speakers/default.png",
         linkedin: "",
     },
+    WilsonYandun:{
+        id: "WilsonYandun",
+        name: "Wilson Yandún",
+        role: "",
+        // image: "/images/speakers/wilson-yandun.jpg",
+        image: "/images/speakers/Wilson.jpeg",
+        linkedin: "",
+    }
 };
 

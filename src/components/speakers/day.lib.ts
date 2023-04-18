@@ -61,7 +61,8 @@ export const days: Day[] = [
         speakerById.RommelDeLosRios,
         speakerById.RicardoRuano,
         speakerById.AltairBarahona,
-        speakerById.JoseNaranjo,
+        speakerById.JoseIgnacioNaranjo,
+        speakerById.WilsonYandun,
       ],
     },
   ];
