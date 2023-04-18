@@ -9,6 +9,6 @@ export const footerLinks = [
   },
   {
     name: 'Contacto',
-    href: '#',
+    href: 'https://linktr.ee/ethereum_ec',
   },
 ]
