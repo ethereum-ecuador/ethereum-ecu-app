@@ -12,7 +12,7 @@ export const MobileNavbar = ({ links }: NavbarProps) => {
       <div className="w-full z-10 flex justify-between items-center px-6">
         <LogoWithText />
         <button
-          className="md:hidden focus:outline-none z-50"
+          className="focus:outline-none z-50"
           onClick={() => {
             setIsOpen(!isOpen)
           }}
@@ -36,7 +36,7 @@ export const MobileNavbar = ({ links }: NavbarProps) => {
       </div>
       <div className="w-full z-10 flex justify-center items-center bg-[#241132]">
         <div className={`${isOpen ? 'flex' : 'hidden'} flex-col justify-center py-4 gap-3`}>
-          <ul className={`md:flex text-white text-lg font-semibold `}>
+          <ul className={`text-white text-lg font-semibold `}>
             {links.map((link: LinkProps) => (
               <li className='text-center' key={`${link.name}-${nanoid()}`}>
                 <a href={link.href} target={link.target} className="hover:text-blue-300 " onClick={() => setIsOpen(false)}>

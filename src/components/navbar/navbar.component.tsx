@@ -35,10 +35,10 @@ export const Navbar = ({ hasBackground }: NavbarProps) => {
       )}
     >
       <nav className="w-full py-4 text-white">
-        <span className="block md:hidden">
+        <span className="block lg:hidden">
           <MobileNavbar links={links} />
         </span>
-        <span className="hidden md:block">
+        <span className="hidden lg:block">
           <div className="flex flex-row items-center justify-between px-6">
             <DesktopNavbar links={links} />
           </div>
