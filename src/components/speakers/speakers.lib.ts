@@ -82,14 +82,14 @@ export const speakerById: { [key: string]: Speaker } = {
         id: "SantiagoLeon",
         name: "Santiago Leon",
         role: "",
-        image: "/images/speakers/https://media.licdn.com/dms/image/D4E35AQEmec8WKyDntw/profile-framedphoto-shrink_800_800/0/1665158974695?e=1682395200&v=beta&t=tc4s6lc-MAM2heiA7D0qCZ5tAUQtbVa5yZQSPvAxjtg",
+        image: "/images/speakers/santiago-leon.jpg",
         linkedin: "https://www.linkedin.com/in/santiagoleonpinzon/",
     },
     AlexPadilla: {
         id: "AlexPadilla",
         name: "Alex Padilla",
         role: "",
-        image: "/images/speakers/https://media.licdn.com/dms/image/C4E03AQGlGrjXdWBmkw/profile-displayphoto-shrink_800_800/0/1661915498188?e=1687392000&v=beta&t=0walPYbxA4Xm2vRFdNsgBiqT3pQ1lEhTQpcgcU7IJW4",
+        image: "/images/speakers/alex-padilla.jpg",
         linkedin: "https://www.linkedin.com/in/hilmalex/",
     },
     PazGomez: {
