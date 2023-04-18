@@ -1,6 +1,7 @@
 import React from 'react'
 import { LogoWithText } from '@/components/common/logo';
 import { LinkProps, NavbarProps } from './navbar.type'
+import TicketsButton from '@/components/common/tickets-button.component';
 
 export function DesktopNavbar({ links }: NavbarProps) {
   return (
@@ -15,10 +16,7 @@ export function DesktopNavbar({ links }: NavbarProps) {
           </li>
         ))}
       </ul>
-      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
-        style={{ borderRadius: '9999px' }}>
-        Tickets
-      </button>
+      <TicketsButton />
     </>
   );
 }

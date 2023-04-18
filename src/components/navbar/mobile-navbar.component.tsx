@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { LogoWithText } from '@/components/common/logo';
 import { LinkProps, NavbarProps } from './navbar.type'
 import { nanoid } from 'nanoid'
+import TicketsButton from '../common/tickets-button.component';
 
 export const MobileNavbar = ({ links }: NavbarProps) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,10 +45,7 @@ export const MobileNavbar = ({ links }: NavbarProps) => {
               </li>
             ))}
           </ul>
-          <button className="text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
-            style={{ borderRadius: '9999px' }}>
-            Tickets
-          </button>
+          <TicketsButton />
         </div>
       </div>
     </>
