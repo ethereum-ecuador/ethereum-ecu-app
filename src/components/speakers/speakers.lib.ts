@@ -78,7 +78,8 @@ export const speakerById: { [key: string]: Speaker } = {
         id: "NicolasSerrano",
         name: "Nicolas Serrano",
         role: "",
-        image: "/images/speakers/nicolas-serrano.jpg",
+        // image: "/images/speakers/nicolas-serrano.jpg",
+        image: "/images/speakers/default.png",
         linkedin: "https://www.linkedin.com/in/nicoserranop/",
     },
     SantiagoLeon: {
@@ -120,7 +121,8 @@ export const speakerById: { [key: string]: Speaker } = {
         id: "LuisUshiña",
         name: "Luis Ushiña",
         role: "",
-        image: "/images/speakers/luis-ushina.jpg",
+        // image: "/images/speakers/luis-ushina.jpg",
+        image: "/images/speakers/default.png",
         linkedin: "https://www.linkedin.com/in/wolfcito/",
     },
     VladimirLuna: {
