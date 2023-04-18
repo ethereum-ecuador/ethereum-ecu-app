@@ -28,7 +28,7 @@ export const Hero = () => {
               rel='noopener noreferrer'
               className="inline-block rounded-lg bg-blue-500 px-6 py-3 text-xl font-semibold text-white shadow-md transition-colors duration-300 hover:bg-blue-700"
             >
-              Obtén tus tickets
+              Regístrate
             </a>
             <a
               href="#about"

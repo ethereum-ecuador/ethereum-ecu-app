@@ -1,6 +1,6 @@
 export const footerLinks = [
   {
-    name: 'About',
+    name: 'Sobre nosotros',
     href: '#about',
   },
   {
@@ -10,5 +10,9 @@ export const footerLinks = [
   {
     name: 'Contacto',
     href: 'https://linktr.ee/ethereum_ec',
+  },
+  {
+    name: 'Ethereum Foundation',
+    href: 'https://ethereum.org/es/',
   },
 ]
