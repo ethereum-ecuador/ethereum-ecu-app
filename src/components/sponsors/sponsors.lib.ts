@@ -11,9 +11,12 @@ const logoUDLA = '/images/hosts/udla.svg';
 
 //sponsors
 const horizonLatam = '/images/sponsors/horizon-latam.svg';
+const logoChaskis = '/images/sponsors/chaskis.svg';
+const logoEquity = '/images/sponsors/equity.svg';
+const logoMundoVirtual = '/images/sponsors/mundo-virtual.png';
 
 //allies
-const logoEthEC = '/images/allies/eth-ec.svg';
+const logoEthEC = '/images/eth-ec.svg';
 const logoEF = '/images/sponsors/ef.png';
 const logoImagenSistemas = '/images/allies/imagen-sistemas.jpg';
 const logoNovaEPN = '/images/allies/innovation-epn.png';
@@ -56,11 +59,43 @@ export const sponsors: SponsorList = {
   ],
   sponsors: [
     {
-      name: 'Ethereum Foudnation', logo: {
+      name: 'Ethereum Foundation', logo: {
         url: logoEF,
         alt: 'Logo Horizon Techonoly LATAM',
         width: 250,
         height: 250
+      }
+    },
+    {
+      name: 'Ethereum Mitad del Mundo', logo: {
+        url: logoEthEC,
+        alt: 'Logo Ethereum Mitad del Mundo',
+        width: 75,
+        height: 75
+      }
+    },
+    {
+      name: 'Equity', logo: {
+        url: logoEquity,
+        alt: 'Logo Equity',
+        width: logoSize,
+        height: logoSize
+      }
+    },
+    {
+      name: 'Chaskis', logo: {
+        url: logoChaskis,
+        alt: 'Logo Chaskis',
+        width: logoSize,
+        height: logoSize
+      }
+    },
+    {
+      name: 'Mundo Virtual', logo: {
+        url: logoMundoVirtual,
+        alt: 'Logo Mundo Virtual',
+        width: logoSize,
+        height: logoSize
       }
     },
     {
