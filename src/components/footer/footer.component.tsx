@@ -22,10 +22,6 @@ export function Footer() {
       <hr className="my-5 border-gray-200 dark:border-gray-700 sm:my-6 lg:my-8" />
       <p className="text-center text-sm text-gray-500 dark:text-gray-400">
         ETH Tricolor © 2023 ETH mitad del mundo, S.A.S B.I.C.
-        <a href="https://www.eth-tricolor.org/" className="hover:underline">
-          ETH Ecuador
-        </a>
-        .
         <br />
         Todos los derechos reservados.
       </p>
