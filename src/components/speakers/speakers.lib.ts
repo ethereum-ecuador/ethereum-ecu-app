@@ -93,7 +93,7 @@ export const speakerById: { [key: string]: Speaker } = {
         id: "AlexPadilla",
         name: "Alex Padilla",
         role: "",
-        image: "/images/speakers/alex-padilla.jpg",
+        image: "/images/speakers/alex-padilla.png",
         linkedin: "https://www.linkedin.com/in/hilmalex/",
     },
     PazGomez: {
@@ -164,5 +164,13 @@ export const speakerById: { [key: string]: Speaker } = {
         image: "/images/speakers/default.png",
         linkedin: "",
     },
+    WilsonYandun: {
+        id: "WilsonYandun",
+        name: "Wilson Yandun",
+        role: "",
+        // image: "/images/speakers/wilson-yandun.jpg",
+        image: "/images/speakers/default.png",
+        linkedin: "",
+    }
 };
 

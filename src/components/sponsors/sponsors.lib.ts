@@ -16,7 +16,7 @@ const logoEquity = '/images/sponsors/equity.svg';
 const logoMundoVirtual = '/images/sponsors/mundo-virtual.png';
 
 //allies
-const logoEthEC = '/images/eth-ec.svg';
+const logoEthEC = '/images/eth-ec-with-text.svg';
 const logoEF = '/images/sponsors/ef.png';
 const logoImagenSistemas = '/images/allies/imagen-sistemas.jpg';
 const logoNovaEPN = '/images/allies/innovation-epn.png';
@@ -71,8 +71,8 @@ export const sponsors: SponsorList = {
       name: 'Ethereum Mitad del Mundo', logo: {
         url: logoEthEC,
         alt: 'Logo Ethereum Mitad del Mundo',
-        width: 75,
-        height: 75
+        width: logoWithTextSize,
+        height: logoWithTextSize
       }
     },
     {
@@ -103,8 +103,8 @@ export const sponsors: SponsorList = {
       name: 'Horizon Techonoly LATAM', logo: {
         url: horizonLatam,
         alt: 'Logo Horizon Techonoly LATAM',
-        width: 125,
-        height: 125
+        width: 200,
+        height: 200
       }
     },
   ],
@@ -113,40 +113,40 @@ export const sponsors: SponsorList = {
       name: 'Ethereum Foundation', logo: {
         url: logoEF,
         alt: 'Ethereum Foundation',
-        width: 250,
-        height: 250
+        width: logoWithTextSize,
+        height: logoWithTextSize
       }
     },
     {
       name: 'LegalLab USFQ', logo: {
         url: logoLegalLab,
         alt: 'Logo LegalLab USFQ',
-        width: logoSize,
-        height: logoSize
+        width: logoWithTextSize,
+        height: logoWithTextSize
       }
     },
     {
       name: 'Imagen Sistemas EPN', logo: {
         url: logoImagenSistemas,
         alt: 'Logo Imagen Sistemas EPN',
-        width: logoSize,
-        height: logoSize
+        width: logoWithTextSize,
+        height: logoWithTextSize
       }
     },
     {
       name: 'Club de Innovación USFQ', logo: {
         url: logoNovaUSFQ,
         alt: 'Logo Club de Innovación USFQ',
-        width: 150,
-        height: 150
+        width: logoWithTextSize,
+        height: logoWithTextSize
       }
     },
     {
       name: 'Club de Innovación EPN', logo: {
         url: logoNovaEPN,
         alt: 'Club de Innovación EPN',
-        width: 150,
-        height: logoSize
+        width: logoWithTextSize,
+        height: logoWithTextSize
       }
     },
   ]
