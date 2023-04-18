@@ -4,7 +4,7 @@ import Image from 'next/image'
 export function Logo({width, height}: LogoProps) {
     return (
         <>
-            <Image src="/images/logo.png" alt="logo" width={width} height={height} />
+            <Image src="/images/eth-ec.svg" alt="logo" width={width} height={height} />
         </>
     )
 }
