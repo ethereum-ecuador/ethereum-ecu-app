@@ -23,8 +23,9 @@ export const Hero = () => {
           </p>
           <div className="flex flex-col items-center justify-center gap-4 md:flex-row">
             <a
-              href="eventbrite.com"
-              target="_blank"
+              href='https://www.eventbrite.com/e/lanzamiento-conferencia-road-to-blockchain-week-ecuador-dia-1-legal-tech-tickets-618618714227'
+              target='_blank'
+              rel='noopener noreferrer'
               className="inline-block rounded-lg bg-blue-500 px-6 py-3 text-xl font-semibold text-white shadow-md transition-colors duration-300 hover:bg-blue-700"
             >
               Obtén tus tickets
