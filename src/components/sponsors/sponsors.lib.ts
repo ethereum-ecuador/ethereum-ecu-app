@@ -9,6 +9,9 @@ const logoUSFQ = '/images/hosts/usfq.svg';
 const logoEPN = '/images/hosts/epn.svg';
 const logoUDLA = '/images/hosts/udla.svg';
 
+//sponsors
+const horizonLatam = '/images/sponsors/horizon-latam.svg';
+
 //allies
 const logoEthEC = '/images/allies/eth-ec.svg';
 const logoEF = '/images/allies/ef.svg';
@@ -20,6 +23,8 @@ const logoLegalLab = '/images/allies/legal-lab.svg';
 interface SponsorList {
   [key: string]: SponsorProps[];
 }
+
+const logoSize = 150
 
 export const sponsors: SponsorList = {
   hosts: [
@@ -51,11 +56,11 @@ export const sponsors: SponsorList = {
   ],
   sponsors: [
     {
-      name: 'Universidad de las Américas', logo: {
-        url: logoEthEC,
-        alt: 'Logo UDLA',
-        width: 125,
-        height: 125
+      name: 'Horizon Techonoly LATAM', logo: {
+        url: horizonLatam,
+        alt: 'Logo Horizon Techonoly LATAM',
+        width: logoSize,
+        height: logoSize
       }
     },
   ],
@@ -64,40 +69,40 @@ export const sponsors: SponsorList = {
       name: 'Ethereum Foundation', logo: {
         url: logoEF,
         alt: 'Logo UDLA',
-        width: 125,
-        height: 125
+        width: 75,
+        height: 75
       }
     },
     {
       name: 'LegalLab USFQ', logo: {
         url: logoLegalLab,
         alt: 'Logo LegalLab USFQ',
-        width: 125,
-        height: 125
+        width: logoSize,
+        height: logoSize
       }
     },
     {
       name: 'Imagen Sistemas EPN', logo: {
         url: logoImagenSistemas,
         alt: 'Logo Imagen Sistemas EPN',
-        width: 125,
-        height: 125
+        width: logoSize,
+        height: logoSize
       }
     },
     {
       name: 'Club de Innovación USFQ', logo: {
         url: logoNovaUSFQ,
         alt: 'Logo Club de Innovación USFQ',
-        width: 125,
-        height: 125
+        width: 150,
+        height: 150
       }
     },
     {
       name: 'Club de Innovación EPN', logo: {
         url: logoNovaEPN,
         alt: 'Club de Innovación EPN',
-        width: 125,
-        height: 125
+        width: 150,
+        height: logoSize
       }
     },
   ]
