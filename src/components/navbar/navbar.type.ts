@@ -5,4 +5,5 @@ export interface NavbarProps {
 export interface LinkProps {
   name: string
   href: string
+  target?: string
 }

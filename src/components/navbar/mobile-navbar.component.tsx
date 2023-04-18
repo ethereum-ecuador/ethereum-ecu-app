@@ -39,7 +39,7 @@ export const MobileNavbar = ({ links }: NavbarProps) => {
           <ul className={`md:flex text-white text-lg font-semibold `}>
             {links.map((link: LinkProps) => (
               <li className='text-center' key={`${link.name}-${nanoid()}`}>
-                <a href={link.href} className="hover:text-blue-300 " onClick={() => setIsOpen(false)}>
+                <a href={link.href} target={link.target} className="hover:text-blue-300 " onClick={() => setIsOpen(false)}>
                   {link.name}
                 </a>
               </li>
