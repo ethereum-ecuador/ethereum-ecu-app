@@ -58,6 +58,8 @@ export const days: Day[] = [
       date: '19 de Mayo',
       dateTime: '2022-05-19',
       speakers: [
+        speakerById.RommelDeLosRios,
+        speakerById.RicardoRuano,
         speakerById.AltairBarahona,
         speakerById.JoseNaranjo,
       ],
