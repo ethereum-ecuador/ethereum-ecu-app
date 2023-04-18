@@ -14,7 +14,7 @@ const horizonLatam = '/images/sponsors/horizon-latam.svg';
 
 //allies
 const logoEthEC = '/images/allies/eth-ec.svg';
-const logoEF = '/images/allies/ef.svg';
+const logoEF = '/images/sponsors/ef.png';
 const logoImagenSistemas = '/images/allies/imagen-sistemas.jpg';
 const logoNovaEPN = '/images/allies/innovation-epn.png';
 const logoNovaUSFQ = '/images/allies/innovation-usfq.png';
@@ -56,11 +56,19 @@ export const sponsors: SponsorList = {
   ],
   sponsors: [
     {
+      name: 'Ethereum Foudnation', logo: {
+        url: logoEF,
+        alt: 'Logo Horizon Techonoly LATAM',
+        width: 250,
+        height: 250
+      }
+    },
+    {
       name: 'Horizon Techonoly LATAM', logo: {
         url: horizonLatam,
         alt: 'Logo Horizon Techonoly LATAM',
-        width: logoSize,
-        height: logoSize
+        width: 125,
+        height: 125
       }
     },
   ],
@@ -68,9 +76,9 @@ export const sponsors: SponsorList = {
     {
       name: 'Ethereum Foundation', logo: {
         url: logoEF,
-        alt: 'Logo UDLA',
-        width: 75,
-        height: 75
+        alt: 'Ethereum Foundation',
+        width: 250,
+        height: 250
       }
     },
     {
