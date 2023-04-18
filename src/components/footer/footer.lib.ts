@@ -5,7 +5,7 @@ export const footerLinks = [
   },
   {
     name: 'Políticas de Privacidad',
-    href: '/politicas-privacidad',
+    href: '/privacy-policy',
   },
   {
     name: 'Contacto',
