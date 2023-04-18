@@ -28,6 +28,7 @@ interface SponsorList {
 }
 
 const logoSize = 150
+const logoWithTextSize = 250
 
 export const sponsors: SponsorList = {
   hosts: [
@@ -61,9 +62,9 @@ export const sponsors: SponsorList = {
     {
       name: 'Ethereum Foundation', logo: {
         url: logoEF,
-        alt: 'Logo Horizon Techonoly LATAM',
-        width: 250,
-        height: 250
+        alt: 'Logo Ethereum Foundation',
+        width: logoWithTextSize,
+        height: logoWithTextSize
       }
     },
     {
@@ -78,16 +79,16 @@ export const sponsors: SponsorList = {
       name: 'Equity', logo: {
         url: logoEquity,
         alt: 'Logo Equity',
-        width: logoSize,
-        height: logoSize
+        width: logoWithTextSize,
+        height: logoWithTextSize
       }
     },
     {
       name: 'Chaskis', logo: {
         url: logoChaskis,
         alt: 'Logo Chaskis',
-        width: logoSize,
-        height: logoSize
+        width: logoWithTextSize,
+        height: logoWithTextSize
       }
     },
     {
