@@ -16,7 +16,7 @@ export function SponsorsCard({ data, title, id }: SponsorsCardProps) {
               key={sponsor.name}
               className="flex items-center justify-center"
             >
-              <Image src={sponsor.logo} alt={sponsor.name} height={50} width={50} unoptimized />
+              <Image src={sponsor.logo.url} width={sponsor.logo.width} height={sponsor.logo.height} alt={sponsor.logo.alt} />
             </div>
           ))}
         </div>
