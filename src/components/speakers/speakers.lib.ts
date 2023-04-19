@@ -5,7 +5,7 @@ export const speakerById: { [key: string]: Speaker } = {
         id: "LegalLab",
         name: "Legal Lab",
         role: "Colegio Jurisprudencia USFQ",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgTBLQxBXGMBFxoFD8AbiWXU3acRBlL4lizWdwV39eyHpSTdJP1nkm6lqmXInCPV7GUy8&usqp=CAU",
+        image: "/images/allies/legal-lab.svg",
         linkedin: "https://www.linkedin.com/showcase/usfq-jurisprudencia/",
     },
     DiegoJaramillo: {
