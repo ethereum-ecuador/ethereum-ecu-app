@@ -21,7 +21,7 @@ export function Countdown() {
       const now = new Date();
       const eventDate = new Date("2023-05-19T14:00:00Z");
 
-      const totalSeconds = (eventDate - now) / 1000;
+      const totalSeconds = (eventDate.getTime() - now.getTime()) / 1000;
 
       const days = Math.floor(totalSeconds / 86400);
       const hours = Math.floor((totalSeconds % 86400) / 3600);
