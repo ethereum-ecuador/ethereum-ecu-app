@@ -19,8 +19,7 @@ export const speakerById: { [key: string]: Speaker } = {
         id: "FabianJaramillo",
         name: "Fabian Jaramillo",
         role: "",
-        // image: "/images/speakers/fabian.jaramillo.jpg",
-        image: "/images/speakers/default.png",
+        image: "/images/speakers/fabian-jaramillo.jpg",
         linkedin: "",
     },
     XavierAndrade: {
@@ -52,6 +51,13 @@ export const speakerById: { [key: string]: Speaker } = {
         role: "",
         image: "/images/speakers/jose-adatty.jpg",
         linkedin: "https://www.linkedin.com/in/jos%C3%A9-adatty-229984205/",
+    },
+    BarbaraTeran: {
+        id: "BarbaraTeran",
+        name: "Bárbara Terán",
+        role: "",
+        image: "/images/speakers/barbara-teran.jpg",
+        linkedin: "https://media.licdn.com/dms/image/D4E35AQFgFGSE1QQzIw/profile-framedphoto-shrink_800_800/0/1680206038456?e=1682395200&v=beta&t=aKTquGRdd7IaVJCP6nvdRcEO6x53Vc8-laWA5daR6jI",
     },
     FelipeOleas: {
         id: "FelipeOleas",
