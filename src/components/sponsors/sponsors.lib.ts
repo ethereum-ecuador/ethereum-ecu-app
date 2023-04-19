@@ -27,8 +27,8 @@ interface SponsorList {
   [key: string]: SponsorProps[];
 }
 
-const logoSize = 150
-const logoWithTextSize = 250
+const logoSize = 250
+const logoSizeS = 250
 
 export const sponsors: SponsorList = {
   hosts: [
@@ -37,24 +37,24 @@ export const sponsors: SponsorList = {
       logo: {
         url: logoUSFQ,
         alt: 'Logo USFQ',
-        width: 250,
-        height: 250
+        width: logoSize,
+        height: logoSize
       }
     },
     {
       name: 'Escuela Politécnica Nacional', logo: {
         url: logoEPN,
         alt: 'Logo EPN',
-        width: 250,
-        height: 250
+        width: logoSize,
+        height: logoSize
       }
     },
     {
       name: 'Universidad de las Américas', logo: {
         url: logoUDLA,
         alt: 'Logo UDLA',
-        width: 250,
-        height: 250
+        width: logoSize,
+        height: logoSize
       }
     },
   ],
@@ -63,48 +63,48 @@ export const sponsors: SponsorList = {
       name: 'Ethereum Foundation', logo: {
         url: logoEF,
         alt: 'Logo Ethereum Foundation',
-        width: logoWithTextSize,
-        height: logoWithTextSize
+        width: logoSize,
+        height: logoSize
       }
     },
     {
       name: 'Ethereum Mitad del Mundo', logo: {
         url: logoEthEC,
         alt: 'Logo Ethereum Mitad del Mundo',
-        width: logoWithTextSize,
-        height: logoWithTextSize
+        width: logoSize,
+        height: logoSize
       }
     },
     {
       name: 'Equity', logo: {
         url: logoEquity,
         alt: 'Logo Equity',
-        width: logoWithTextSize,
-        height: logoWithTextSize
+        width: logoSize,
+        height: logoSize
       }
     },
     {
       name: 'Chaskis', logo: {
         url: logoChaskis,
         alt: 'Logo Chaskis',
-        width: logoWithTextSize,
-        height: logoWithTextSize
+        width: logoSize,
+        height: logoSize
       }
     },
     {
       name: 'Mundo Virtual', logo: {
         url: logoMundoVirtual,
         alt: 'Logo Mundo Virtual',
-        width: logoSize,
-        height: logoSize
+        width: 125,
+        height: 125
       }
     },
     {
       name: 'Horizon Techonoly LATAM', logo: {
         url: horizonLatam,
         alt: 'Logo Horizon Techonoly LATAM',
-        width: 200,
-        height: 200
+        width: logoSize,
+        height: logoSize
       }
     },
   ],
@@ -113,40 +113,40 @@ export const sponsors: SponsorList = {
       name: 'Ethereum Foundation', logo: {
         url: logoEF,
         alt: 'Ethereum Foundation',
-        width: logoWithTextSize,
-        height: logoWithTextSize
+        width: logoSize,
+        height: logoSize
       }
     },
     {
       name: 'LegalLab USFQ', logo: {
         url: logoLegalLab,
         alt: 'Logo LegalLab USFQ',
-        width: logoWithTextSize,
-        height: logoWithTextSize
+        width: logoSize,
+        height: logoSize
       }
     },
     {
       name: 'Imagen Sistemas EPN', logo: {
         url: logoImagenSistemas,
         alt: 'Logo Imagen Sistemas EPN',
-        width: logoWithTextSize,
-        height: logoWithTextSize
+        width: logoSize,
+        height: logoSize
       }
     },
     {
       name: 'Club de Innovación USFQ', logo: {
         url: logoNovaUSFQ,
         alt: 'Logo Club de Innovación USFQ',
-        width: logoWithTextSize,
-        height: logoWithTextSize
+        width: logoSize,
+        height: logoSize
       }
     },
     {
       name: 'Club de Innovación EPN', logo: {
         url: logoNovaEPN,
         alt: 'Club de Innovación EPN',
-        width: logoWithTextSize,
-        height: logoWithTextSize
+        width: logoSize,
+        height: logoSize
       }
     },
   ]

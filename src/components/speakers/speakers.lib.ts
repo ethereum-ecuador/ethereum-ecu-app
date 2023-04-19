@@ -59,6 +59,13 @@ export const speakerById: { [key: string]: Speaker } = {
         image: "/images/speakers/barbara-teran.jpg",
         linkedin: "https://media.licdn.com/dms/image/D4E35AQFgFGSE1QQzIw/profile-framedphoto-shrink_800_800/0/1680206038456?e=1682395200&v=beta&t=aKTquGRdd7IaVJCP6nvdRcEO6x53Vc8-laWA5daR6jI",
     },
+    JoseSebastianPonce: {
+        id: "JoseSebastianPonce",
+        name: "Jose Sebastian Ponce",
+        role: "",
+        image: "/images/speakers/jose-sebastian-ponce.jpg",
+        linkedin: "https://www.linkedin.com/in/jose-sebastian-ponce/overlay/photo/",
+    },
     FelipeOleas: {
         id: "FelipeOleas",
         name: "Felipe Oleas",
@@ -79,13 +86,6 @@ export const speakerById: { [key: string]: Speaker } = {
         role: "",
         image: "/images/speakers/paul-noboa.jpg",
         linkedin: "https://www.linkedin.com/in/paulnoboavelasco/",
-    },
-    JoseSebastianPonce: {
-        id: "JoseSebastianPonce",
-        name: "Jose Sebastian Ponce",
-        role: "",
-        image: "/images/speakers/jose-sebastian-ponce.jpg",
-        linkedin: "",
     },
     NicolasSerrano: {
         id: "NicolasSerrano",
@@ -157,7 +157,7 @@ export const speakerById: { [key: string]: Speaker } = {
     FedericoAquino: {
         id: "FedericoAquino",
         name: "Federico Aquino",
-        role: "",
+        role: "Ceo Taqqui Latam",
         image: "/images/speakers/federico-aquino.jpg",
         linkedin: "https://www.linkedin.com/in/fedeaquino",
     },
