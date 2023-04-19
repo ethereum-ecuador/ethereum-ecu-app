@@ -3,7 +3,7 @@ import { speakerById } from "./speakers.lib";
 
 export const days: Day[] = [
     {
-      name: 'Opening Day',
+      name: 'Apertura, enfoque legal',
       date: '15 de Mayo',
       dateTime: '2022-05-15',
       speakers: [
@@ -30,7 +30,7 @@ export const days: Day[] = [
       ],
     },
     {
-      name: 'DeFi y Ley Fintech en Ecuador',
+      name: 'DeFi y Ley Fintech',
       date: '17 de Mayo',
       dateTime: '2022-05-17',
       speakers: [

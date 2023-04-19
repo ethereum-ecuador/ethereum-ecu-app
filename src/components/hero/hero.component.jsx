@@ -18,7 +18,9 @@ export const Hero = () => {
               Quito, Ecuador
             </p>
             <p className="mt-16 mb-6 text-xl text-white md:text-2xl lg:text-3xl">
-              Del 15 al 19 de mayo
+              Evento Gratuito
+              <br />
+              del 15 al 20 de mayo
             </p>
           </div>
           <div className="flex flex-col items-center justify-center gap-4 md:flex-row">
@@ -28,7 +30,7 @@ export const Hero = () => {
               rel='noopener noreferrer'
               className="inline-block rounded-lg bg-blue-500 px-6 py-3 text-xl font-semibold text-white shadow-md transition-colors duration-300 hover:bg-blue-700"
             >
-              Regístrate
+              Reserva tu lugar ahora
             </a>
             <a
               href="#about"
