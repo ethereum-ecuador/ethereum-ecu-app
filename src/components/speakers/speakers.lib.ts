@@ -26,8 +26,7 @@ export const speakerById: { [key: string]: Speaker } = {
     id: 'XavierAndrade',
     name: 'Xavier Andrade',
     role: '',
-    // image: "/images/speakers/xavier-andrade.jpg",
-    image: '/images/speakers/default.png',
+    image: "/images/speakers/xavier-andrade.jpg",
     linkedin: '',
   },
   JuanFranciscoGonzalez: {
