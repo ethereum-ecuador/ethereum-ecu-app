@@ -26,7 +26,10 @@ export const days: Day[] = [
       date: '16 de Mayo',
       dateTime: '2022-05-16',
       speakers: [
-        speakerById.AlexPadilla,
+        speakerById.FranciscoRamos,
+        speakerById.JoseDanielRubio,
+        speakerById.PazGomez,
+        speakerById.MauricioRubio,
       ],
     },
     {
@@ -34,7 +37,6 @@ export const days: Day[] = [
       date: '17 de Mayo',
       dateTime: '2022-05-17',
       speakers: [
-        speakerById.AlexPadilla,
         speakerById.NicolasSerrano,
         speakerById.PazGomez,
         speakerById.JoseLuisBenitez,

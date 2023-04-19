@@ -96,6 +96,37 @@ export const speakerById: { [key: string]: Speaker } = {
         image: "/images/speakers/alex-padilla.png",
         linkedin: "https://www.linkedin.com/in/hilmalex/",
     },
+    // Tuesday
+    FranciscoRamos: {
+        id: "FranciscoRamos",
+        name: "Francisco Ramos",
+        role: "",
+        image: "/images/speakers/francisco-ramos.jpeg",
+        linkedin: "https://www.linkedin.com/in/francisco-ramos-1a319241/",
+    },
+    JoseDanielRubio: {
+        id: "JoseDanielRubio",
+        name: "Jose Daniel Rubio",
+        role: "",
+        image: "/images/speakers/jose-daniel-rubio.jpg",
+        linkedin: "https://www.linkedin.com/in/jos%C3%A9-daniel-rubio-0086921a5/",
+    },
+    FelipeSalgado: {
+        id: "FelipeSalgado",
+        name: "Felipe Salgado",
+        role: "",
+        image: "/images/speakers/felipe-salgado.jpg",
+        linkedin: "https://www.linkedin.com/in/felipesalgadoramos/",
+    },
+    MauricioRubio: {
+        id: "MauricioRubio",
+        name: "Mauricio Rubio",
+        role: "",
+        // image: "/images/speakers/mauricio-rubio.jpg",
+        image: "/images/speakers/default.png",
+        linkedin: "https://www.linkedin.com/in/maurorubiot/",
+    },
+    // Wednesday
     PazGomez: {
         id: "PazGomez",
         name: "Paz Gomez",
@@ -117,6 +148,7 @@ export const speakerById: { [key: string]: Speaker } = {
         image: "/images/speakers/federico-aquino.jpg",
         linkedin: "https://www.linkedin.com/in/fedeaquino",
     },
+    // Thursday
     LuisUshina: {
         id: "LuisUshiña",
         name: "Luis Ushiña",
@@ -132,6 +164,7 @@ export const speakerById: { [key: string]: Speaker } = {
         image: "/images/speakers/vladimir-luna.jpg",
         linkedin: "https://www.linkedin.com/in/vladimirlunapmp/",
     },
+    // Friday
     JoseIgnacioNaranjo: {
         id: "JoseNaranjo",
         name: "José Ignacio Naranjo",
