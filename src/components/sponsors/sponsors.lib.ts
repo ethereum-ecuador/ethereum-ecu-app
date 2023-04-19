@@ -19,6 +19,7 @@ const logoMundoVirtual = '/images/sponsors/mundo-virtual.png';
 const logoEthEC = '/images/eth-ec-with-text.svg';
 const logoEF = '/images/sponsors/ef.png';
 const logoImagenSistemas = '/images/allies/imagen-sistemas.jpg';
+const logoFISEPN = '/images/allies/fis-epn.png';
 const logoNovaEPN = '/images/allies/innovation-epn.png';
 const logoNovaUSFQ = '/images/allies/innovation-usfq.png';
 const logoLegalLab = '/images/allies/legal-lab.svg';
@@ -103,8 +104,8 @@ export const sponsors: SponsorList = {
       name: 'Horizon Techonoly LATAM', logo: {
         url: horizonLatam,
         alt: 'Logo Horizon Techonoly LATAM',
-        width: logoSize,
-        height: logoSize
+        width: 225,
+        height: 225
       }
     },
   ],
@@ -126,17 +127,25 @@ export const sponsors: SponsorList = {
       }
     },
     {
-      name: 'Imagen Sistemas EPN', logo: {
-        url: logoImagenSistemas,
-        alt: 'Logo Imagen Sistemas EPN',
+      name: 'Club de Innovación USFQ', logo: {
+        url: logoNovaUSFQ,
+        alt: 'Logo Club de Innovación USFQ',
         width: logoSize,
         height: logoSize
       }
     },
     {
-      name: 'Club de Innovación USFQ', logo: {
-        url: logoNovaUSFQ,
-        alt: 'Logo Club de Innovación USFQ',
+      name: 'Facultad de Ingeniería de Sistemas EPN', logo: {
+        url: logoFISEPN,
+        alt: 'Logo Facultad de Ingeniería de Sistemas EPN',
+        width: 150,
+        height: 150
+      }
+    },
+    {
+      name: 'Imagen Sistemas EPN', logo: {
+        url: logoImagenSistemas,
+        alt: 'Logo Imagen Sistemas EPN',
         width: logoSize,
         height: logoSize
       }
