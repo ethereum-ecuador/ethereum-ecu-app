@@ -136,8 +136,7 @@ export const speakerById: { [key: string]: Speaker } = {
     id: 'MauricioRubio',
     name: 'Mauricio Rubio',
     role: '',
-    // image: "/images/speakers/mauricio-rubio.jpg",
-    image: '/images/speakers/default.png',
+    image: "/images/speakers/mauricio-rubio.jpg",
     linkedin: 'https://www.linkedin.com/in/maurorubiot/',
   },
   // Wednesday
@@ -170,6 +169,13 @@ export const speakerById: { [key: string]: Speaker } = {
     image: '/images/speakers/luis-fernando-ushina.jpg',
     linkedin: 'https://www.linkedin.com/in/wolfcito/',
   },
+//   MarceloHaro: {
+//     id: 'MarceloHaro',
+//     name: 'Marcelo Haro',
+//     role: '',
+//     image: '/images/speakers/vladimir-luna.jpg',
+//     linkedin: 'https://www.linkedin.com/in/vladimirlunapmp/',
+//   },
   VladimirLuna: {
     id: 'VladimirLuna',
     name: 'Vladimir Luna',
