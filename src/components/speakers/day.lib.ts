@@ -3,8 +3,8 @@ import { speakerById } from "./speakers.lib";
 
 export const days: Day[] = [
     {
-      name: 'Apertura, enfoque legal',
-      date: '15 de Mayo',
+      name: 'Apertura - Temas legales',
+      date: 'Mayo 15 - USFQ',
       dateTime: '2022-05-15',
       speakers: [
         speakerById.LegalLab,
@@ -24,8 +24,8 @@ export const days: Day[] = [
       ],
     },
     {
-      name: 'Blockchain y la Academia',
-      date: '16 de Mayo',
+      name: 'Academia y Blockchain',
+      date: 'Mayo 16 - USFQ',
       dateTime: '2022-05-16',
       speakers: [
         speakerById.FranciscoRamos,
@@ -35,8 +35,8 @@ export const days: Day[] = [
       ],
     },
     {
-      name: 'DeFi y Ley Fintech',
-      date: '17 de Mayo',
+      name: 'Ley Fintech y DeFi',
+      date: 'Mayo 17 - EPN',
       dateTime: '2022-05-17',
       speakers: [
         speakerById.NicolasSerrano,
@@ -48,7 +48,7 @@ export const days: Day[] = [
     },
     {
       name: 'Desarrollo con Solidity',
-      date: '18 de Mayo',
+      date: 'Mayo 18 - EPN',
       dateTime: '2022-05-18',
       speakers: [
         speakerById.NicolasSerrano,
@@ -60,7 +60,7 @@ export const days: Day[] = [
     },
     {
       name: 'Rollups y Layer 2',
-      date: '19 de Mayo',
+      date: 'Mayo 19 - UDLA',
       dateTime: '2022-05-19',
       speakers: [
         speakerById.RommelDeLosRios,
@@ -68,6 +68,14 @@ export const days: Day[] = [
         speakerById.AltairBarahona,
         speakerById.JoseIgnacioNaranjo,
         speakerById.WilsonYandun,
+      ],
+    },
+    {
+      name: 'Clausura',
+      date: 'Mayo 20 - Ocho Cafe',
+      dateTime: '2022-05-19',
+      speakers: [
+        speakerById.NicolasSerrano,
       ],
     },
   ];

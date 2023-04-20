@@ -17,7 +17,7 @@ export const speakerById: { [key: string]: Speaker } = {
   },
   FabianJaramillo: {
     id: 'FabianJaramillo',
-    name: 'Fabian Jaramillo',
+    name: 'Fabián Jaramillo',
     role: '',
     image: '/images/speakers/fabian-jaramillo.jpg',
     linkedin: '',
@@ -31,7 +31,7 @@ export const speakerById: { [key: string]: Speaker } = {
   },
   JuanFranciscoGonzalez: {
     id: 'JuanFranciscoGonzalez',
-    name: 'Juan Francisco Gonzalez',
+    name: 'Juan Francisco González',
     role: '',
     image: '/images/speakers/juan-francisco-gonzalez.jpg',
     linkedin: '',
@@ -83,14 +83,14 @@ export const speakerById: { [key: string]: Speaker } = {
   },
   JoseSebastianPonce: {
     id: 'JoseSebastianPonce',
-    name: 'Jose Sebastian Ponce',
+    name: 'Jose Sebastián Ponce',
     role: '',
     image: '/images/speakers/jose-sebastian-ponce.jpg',
     linkedin: '',
   },
   NicolasSerrano: {
     id: 'NicolasSerrano',
-    name: 'Nicolas Serrano',
+    name: 'Nicolás Serrano',
     role: '',
     // image: "/images/speakers/nicolas-serrano.jpg",
     image: '/images/speakers/default.png',
@@ -98,7 +98,7 @@ export const speakerById: { [key: string]: Speaker } = {
   },
   SantiagoLeon: {
     id: 'SantiagoLeon',
-    name: 'Santiago Leon',
+    name: 'Santiago León',
     role: '',
     image: '/images/speakers/santiago-leon.jpg',
     linkedin: 'https://www.linkedin.com/in/santiagoleonpinzon/',
@@ -143,7 +143,7 @@ export const speakerById: { [key: string]: Speaker } = {
   // Wednesday
   PazGomez: {
     id: 'PazGomez',
-    name: 'Paz Gomez',
+    name: 'Paz Gómez',
     role: '',
     image: '/images/speakers/paz-gomez.jpg',
     linkedin: 'https://www.linkedin.com/in/mpazgomezm',
@@ -217,6 +217,14 @@ export const speakerById: { [key: string]: Speaker } = {
     role: '',
     // image: "/images/speakers/wilson-yandun.jpg",
     image: '/images/speakers/Wilson.jpeg',
+    linkedin: '',
+  },
+  Default: {
+    id: 'Default',
+    name: 'Default',
+    role: '',
+    // image: "/images/speakers/wilson-yandun.jpg",
+    image: '/images/speakers/default.png',
     linkedin: '',
   },
 }
