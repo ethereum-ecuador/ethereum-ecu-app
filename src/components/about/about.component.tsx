@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Container } from '../common/Container'
+import Image from 'next/image'
 
 export default function About() {
   return (
@@ -14,8 +15,13 @@ export default function About() {
           <p className="text-justify font-display text-base md:text-lg lg:text-2xl font-normal tracking-tight text-blue-900 mt-4 md:mt-10">
             Una semana de conferencias sobre la tecnología blockchain que se llevará a cabo del 15 al 19 de mayo en varias universidades de Quito, como la EPN, USFQ y UDLA. Cada día tendrá un enfoque diferente relacionado con la implementación de blockchain en Ecuador, con varias conferencias sobre descentralización, seguridad y eficiencia. El evento tiene como objetivo promover y difundir la tecnología blockchain en el país.
           </p>
-          <div className=' my-6 w-[80vw] h-[30vh] sm:w-[70vw] sm:h-[50vh] lg:h-[50vh] max-w-[500px] max-h-[500px] xl:max-w-[750px] xl:max-h-[750px]' >
-            <iframe className='w-full h-full aspect-square' src="https://www.youtube.com/embed/lBVwOI75vko" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          {/* <div className='my-6 w-[80vw] h-[30vh] sm:w-[70vw] sm:h-[50vh] lg:h-[50vh] max-w-[500px] max-h-[500px] xl:max-w-[750px] xl:max-h-[750px]' >
+            <iframe className='w-full h-full aspect-square' src="https://www.youtube.com/embed/ZrBYKYlffYI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          </div> */}
+          <div className='mt-6 my-6 w-[80vw] h-[30vh] sm:w-[70vw] sm:h-[50vh] lg:h-[50vh] max-w-[500px] max-h-[500px] xl:max-w-[750px] xl:max-h-[750px]' >
+            <a href="https://www.youtube.com/watch?v=lBVwOI75vko">
+              <Image src="/images/cover.jpg" alt="" width={500} height={500} className='w-full h-full' />
+            </a>
           </div>
         </div>
       </Container>
