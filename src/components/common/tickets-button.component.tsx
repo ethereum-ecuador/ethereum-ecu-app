@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function TicketsButton() {
     return (
-        <a href='https://www.eventbrite.com/e/lanzamiento-conferencia-road-to-blockchain-week-ecuador-dia-1-legal-tech-tickets-618618714227'
+        <a href='https://www.eventbrite.com/cc/launch-road-to-blockchain-week-ecuador-2023-2075369'
             target='_blank'
             rel='noopener noreferrer'
             className='flex justify-center items-center'>

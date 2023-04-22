@@ -27,7 +27,7 @@ export const Hero = () => {
           </div>
           <div className="flex flex-col items-center justify-center gap-4 md:flex-row">
             <a
-              href='https://www.eventbrite.com/e/lanzamiento-conferencia-road-to-blockchain-week-ecuador-dia-1-legal-tech-tickets-618618714227'
+              href='https://www.eventbrite.com/cc/launch-road-to-blockchain-week-ecuador-2023-2075369'
               target='_blank'
               rel='noopener noreferrer'
               className="inline-block rounded-lg bg-blue-500 px-6 py-3 text-xl font-semibold text-white shadow-md transition-colors duration-300 hover:bg-blue-700"

@@ -7,7 +7,7 @@ const logoUDLA = '/images/hosts/udla.svg'
 //sponsors
 const horizonLatam = '/images/sponsors/horizon-latam.svg'
 const logoChaskis = '/images/sponsors/chaskis.svg'
-const logoEquity = '/images/sponsors/equity.svg'
+const logoEquity = '/images/sponsors/equity.png'
 const logoMundoVirtual = '/images/sponsors/mundo-virtual-solutions.png'
 
 //allies
