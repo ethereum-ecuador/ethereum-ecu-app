@@ -1,6 +1,7 @@
-import { LogoWithText } from '@components/common/logo/index'
-import { footerLinks as links } from './footer.lib'
 import { nanoid } from 'nanoid'
+import { LogoWithText } from '@components/common'
+import { footerLinks as links } from './footer.lib'
+import { FooterLink } from './footer-link.component'
 
 export function Footer() {
   return (
@@ -11,11 +12,11 @@ export function Footer() {
         </span>
         <ul className="flex w-3/5 flex-wrap items-center justify-center gap-2 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mb-0 sm:gap-6 md:justify-end">
           {links.map((link) => (
-            <li key={`f-${link.name}-${nanoid()}`}>
-              <a href={link.href} className="hover:underline">
-                {link.name}
-              </a>
-            </li>
+            <FooterLink
+              key={`footer-link-${nanoid()}`}
+              href={link.href}
+              name={link.name}
+            />
           ))}
         </ul>
       </div>

@@ -1,24 +1,25 @@
-import React, { useState } from 'react';
-import { LogoWithText } from '@/components/common/logo';
-import { LinkProps, NavbarProps } from './navbar.type'
-import { nanoid } from 'nanoid'
-import TicketsButton from '../common/tickets-button.component';
+import React, { useState } from 'react'
 
-export const MobileNavbar = ({ links }: NavbarProps) => {
-  const [isOpen, setIsOpen] = useState(false);
+import clsx from 'clsx'
+import { nanoid } from 'nanoid'
+import { LogoWithText, TicketsButton } from '@/components/common'
+import { LinkProps, ResponsiveNavbarProps } from './navbar.type'
+
+export const MobileNavbar = ({ links }: ResponsiveNavbarProps) => {
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <>
-      <div className="w-full z-10 flex justify-between items-center px-6">
+      <div className="z-10 flex w-full items-center justify-between px-6">
         <LogoWithText />
         <button
-          className="focus:outline-none z-50"
+          className="z-50 focus:outline-none"
           onClick={() => {
             setIsOpen(!isOpen)
           }}
         >
           <svg
-            className="w-6 h-6 text-white"
+            className="h-6 w-6 text-white"
             fill="none"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -34,12 +35,21 @@ export const MobileNavbar = ({ links }: NavbarProps) => {
           </svg>
         </button>
       </div>
-      <div className="w-full z-10 flex justify-center items-center bg-[#241132]">
-        <div className={`${isOpen ? 'flex' : 'hidden'} flex-col justify-center py-4 gap-3`}>
-          <ul className={`text-white text-lg font-semibold `}>
+      <div className="z-10 flex w-full items-center justify-center bg-[#241132]">
+        <div
+          className={clsx(
+            `${isOpen ? 'flex' : 'hidden'} flex-col justify-center gap-3 py-4`
+          )}
+        >
+          <ul className="text-lg font-semibold text-white">
             {links.map((link: LinkProps) => (
-              <li className='text-center' key={`${link.name}-${nanoid()}`}>
-                <a href={link.href} target={link.target} className="hover:text-blue-300 " onClick={() => setIsOpen(false)}>
+              <li className="text-center" key={`${link.name}-${nanoid()}`}>
+                <a
+                  href={link.href}
+                  target={link.target}
+                  className="hover:text-blue-300"
+                  onClick={() => setIsOpen(false)}
+                >
                   {link.name}
                 </a>
               </li>
@@ -49,5 +59,5 @@ export const MobileNavbar = ({ links }: NavbarProps) => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}

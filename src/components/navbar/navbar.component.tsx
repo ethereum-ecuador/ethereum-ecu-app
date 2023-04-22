@@ -3,6 +3,7 @@ import { DesktopNavbar } from './desktop-navbar.component'
 import { MobileNavbar } from './mobile-navbar.component'
 import { links } from './navbar.lib'
 import clsx from 'clsx'
+import { NavbarProps } from './navbar.type'
 
 export const Navbar = ({ hasBackground }: NavbarProps) => {
   const [_, setScroll] = useState(0)
@@ -46,13 +47,4 @@ export const Navbar = ({ hasBackground }: NavbarProps) => {
       </nav>
     </header>
   )
-}
-
-export interface LinkProps {
-  name: string
-  href: string
-}
-
-interface NavbarProps {
-  hasBackground?: boolean
 }

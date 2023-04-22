@@ -1,7 +1,7 @@
 export const footerLinks = [
   {
     name: 'Sobre nosotros',
-    href: '#about',
+    href: '/#about',
   },
   {
     name: 'Políticas de Privacidad',
