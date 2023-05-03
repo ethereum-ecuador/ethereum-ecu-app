@@ -20,12 +20,6 @@
       "@components/*": ["components/*"]
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "src/components/hero/countdown-timer.component.tsx",
-    "src/components/common/diamon"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
