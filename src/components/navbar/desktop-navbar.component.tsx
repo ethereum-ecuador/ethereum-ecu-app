@@ -1,4 +1,3 @@
-import React from 'react'
 import { LogoWithText, TicketsButton } from '@/components/common'
 import { LinkProps, ResponsiveNavbarProps } from './navbar.type'
 

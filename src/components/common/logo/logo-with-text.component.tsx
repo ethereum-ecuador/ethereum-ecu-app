@@ -1,4 +1,3 @@
-import React from 'react'
 import { Logo } from './logo.component'
 import Link from 'next/link'
 

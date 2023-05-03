@@ -3,7 +3,7 @@ import { Tab } from '@headlessui/react'
 import Image from 'next/image'
 import clsx from 'clsx'
 
-import { DiamondIcon } from '@components/common/DiamondIcon'
+import { DiamondIcon } from '@/components/common/diamon'
 
 import { Container } from '@/components/common/container'
 
