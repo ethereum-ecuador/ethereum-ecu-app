@@ -1,4 +1,4 @@
-import { Container } from '@/components/Container'
+import { Container } from '@/components/common'
 import { Footer } from '@/components/footer'
 import { Navbar } from '@/components/navbar'
 import { Paragraph } from '@/components/paragraph'

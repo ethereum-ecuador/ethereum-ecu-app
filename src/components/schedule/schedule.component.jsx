@@ -4,7 +4,7 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 import { nanoid } from 'nanoid'
 
-import { Container } from '@/components/common/container'
+import { Container } from '@/components/common'
 import backgroundImage from '@/images/background.jpg'
 import { schedule } from './schedule.lib'
 

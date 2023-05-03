@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 import { SponsorsCardProps } from './sponsors.type'
-import { Container } from '@/components/common/container'
+import { Container } from '@/components/common'
 
 export function SponsorsCard({ data, title, id }: SponsorsCardProps) {
   return (

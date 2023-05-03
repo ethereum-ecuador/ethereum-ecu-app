@@ -1,5 +1,4 @@
 export * from './container'
-export * from './diamon'
 export * from './image-clip-paths'
 export * from './logo'
 export * from './tickets-button'

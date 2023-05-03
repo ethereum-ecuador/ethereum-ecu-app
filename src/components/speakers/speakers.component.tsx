@@ -3,9 +3,9 @@ import { Tab } from '@headlessui/react'
 import Image from 'next/image'
 import clsx from 'clsx'
 
-import { DiamondIcon } from '@/components/common/diamon'
+import { DiamondIcon } from '@/icons'
 
-import { Container } from '@/components/common/container'
+import { Container } from '@/components/common'
 
 import { days } from './day.lib'
 import { Speaker } from './speakers.type'

@@ -1,4 +1,4 @@
-import { Container } from '@/components/common/container'
+import { Container } from '@/components/common'
 import Image from 'next/image'
 
 export function About() {

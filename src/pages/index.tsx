@@ -6,6 +6,7 @@ import { Hero } from '@/components/hero'
 import { Sponsors } from '@/components/sponsors'
 import { Speakers } from '@/components/speakers'
 import { About } from '@/components/about'
+import { Contributors } from '@/components/contributors'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <About />
         <Speakers />
         <Sponsors />
+        <Contributors />
       </main>
       <Footer />
     </>
