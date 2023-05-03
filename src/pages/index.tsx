@@ -5,7 +5,7 @@ import { Navbar } from '@/components/navbar'
 import { Hero } from '@/components/hero'
 import { Sponsors } from '@/components/sponsors'
 import { Speakers } from '@/components/speakers'
-import About from '@/components/about/about.component'
+import { About } from '@/components/about'
 
 export default function Home() {
   return (

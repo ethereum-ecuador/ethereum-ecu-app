@@ -5,7 +5,7 @@ import clsx from 'clsx'
 
 import { DiamondIcon } from '@components/common/DiamondIcon'
 import { ImageClipPaths } from '@components/common/ImageClipPaths'
-import { Container } from '@/components/common/Container'
+import { Container } from '@/components/common/container'
 
 import { days } from './day.lib'
 import { Speaker } from './speakers.type'

@@ -4,7 +4,7 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 import { nanoid } from 'nanoid'
 
-import { Container } from '@/components/common/Container'
+import { Container } from '@/components/common/container'
 import backgroundImage from '@/images/background.jpg'
 import { schedule } from './schedule.lib'
 
@@ -74,7 +74,7 @@ function ScheduleTabbed() {
 function DaySummary({ day }) {
   return (
     <>
-      <div className='px-5'>
+      <div className="px-5">
         <h3 className="text-2xl font-semibold tracking-tight text-blue-900">
           <time dateTime={day.dateTime}>{day.date}</time>
         </h3>
@@ -144,7 +144,7 @@ export function Schedule() {
   return (
     <section id="schedule" aria-label="Schedule" className="py-5 sm:py-20">
       <div className="relative z-10">
-        <h2 className="text-center py-5 font-display text-4xl font-bold md:text-4xl tracking-tighter text-blue-600 sm:text-5xl">
+        <h2 className="py-5 text-center font-display text-4xl font-bold tracking-tighter text-blue-600 sm:text-5xl md:text-4xl">
           Cronograma
         </h2>
       </div>

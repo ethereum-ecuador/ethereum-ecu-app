@@ -7,7 +7,7 @@ export function FooterLink({ href, name }: FooterLinkProps) {
         <a
           href={href}
           className="hover:underline"
-          target={'_blank'}
+          target="_blank"
           rel="noreferrer"
         >
           {name}
