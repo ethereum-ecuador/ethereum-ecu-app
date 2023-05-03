@@ -4,6 +4,7 @@ import { MobileNavbar } from './mobile-navbar.component'
 import { links } from './navbar.lib'
 import clsx from 'clsx'
 import { NavbarProps } from './navbar.type'
+import { hasNews } from '@/client'
 
 export const Navbar = ({ hasBackground }: NavbarProps) => {
   const [_, setScroll] = useState(0)
@@ -45,6 +46,18 @@ export const Navbar = ({ hasBackground }: NavbarProps) => {
           </div>
         </span>
       </nav>
+      {hasNews ? (
+        <div className="flex justify-center bg-white p-2 text-blue-700 backdrop-blur-sm">
+          <a
+            href="https://vitalik.ca/"
+            className="underline decoration-solid"
+            target="_blank"
+            rel="noreferrer"
+          >
+            V.B Guidance and Resources
+          </a>
+        </div>
+      ) : null}
     </header>
   )
 }
