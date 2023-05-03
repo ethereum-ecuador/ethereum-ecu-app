@@ -1,6 +1,6 @@
-import React from 'react';
+import { ImageClipPathsProps } from './image-clip-paths.type'
 
-export const ImageClipPaths: React.FC<ImageClipPathsProps> = ({ id }) => {
+export function ImageClipPaths({ id }: ImageClipPathsProps) {
   return (
     <svg className="hidden">
       <defs>
@@ -15,9 +15,5 @@ export const ImageClipPaths: React.FC<ImageClipPathsProps> = ({ id }) => {
         </clipPath>
       </defs>
     </svg>
-  );
-};
-
-interface ImageClipPathsProps {
-    id: string;
-  }
+  )
+}

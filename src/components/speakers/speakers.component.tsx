@@ -1,16 +1,17 @@
-import React, { useEffect, useState, useId } from 'react'
+import { useEffect, useState, useId } from 'react'
 import { Tab } from '@headlessui/react'
 import Image from 'next/image'
 import clsx from 'clsx'
 
 import { DiamondIcon } from '@components/common/DiamondIcon'
-import { ImageClipPaths } from '@components/common/ImageClipPaths'
+
 import { Container } from '@/components/common/container'
 
 import { days } from './day.lib'
 import { Speaker } from './speakers.type'
 import { Day } from './day.type'
 import { nanoid } from 'nanoid'
+import { ImageClipPaths } from '@/components/common/image-clip-paths'
 
 export function Speakers(): JSX.Element {
   const id = useId()
