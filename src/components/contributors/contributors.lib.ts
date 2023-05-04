@@ -34,13 +34,4 @@ export const contributors: ContributorCardProps[] = [
     linkedin: 'https://www.linkedin.com/in/hilmalex/',
     github: 'https://github.com/padimaster',
   },
-  {
-    id: 'NicolasSerrano',
-    name: 'Nicolás Serrano',
-    role: 'Web3 developer',
-    image: '/images/speakers/nicolas-serrano.jpg',
-    // image: '/images/speakers/default.png',
-    linkedin: 'https://www.linkedin.com/in/nicoserranop/',
-    github: 'https://github.com/NicoSerranoP',
-  },
 ]
