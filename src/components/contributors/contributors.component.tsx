@@ -17,7 +17,7 @@ export function Contributors() {
             <p className="text-center text-lg tracking-tight text-blue-900">
               Developed by
             </p>
-            <div className="grid grid-cols-2 gap-2 md:grid-cols-3 lg:grid-cols-5">
+            <div className="grid grid-cols-2 gap-2 md:grid-cols-4 lg:grid-cols-4">
               {contributors.map((contributor) => (
                 <ContributorCard
                   id={contributor.id}
