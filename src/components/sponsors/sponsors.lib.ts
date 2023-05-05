@@ -58,15 +58,6 @@ export const sponsors: SponsorList = {
   ],
   sponsors: [
     {
-      name: 'Ethereum Foundation',
-      logo: {
-        url: logoEF,
-        alt: 'Logo Ethereum Foundation',
-        width: logoSize,
-        height: logoSize,
-      },
-    },
-    {
       name: 'Ethereum Mitad del Mundo',
       logo: {
         url: logoEthEC,
@@ -113,15 +104,6 @@ export const sponsors: SponsorList = {
     },
   ],
   allies: [
-    {
-      name: 'Ethereum Foundation',
-      logo: {
-        url: logoEF,
-        alt: 'Ethereum Foundation',
-        width: logoSize,
-        height: logoSize,
-      },
-    },
     {
       name: 'LegalLab USFQ',
       logo: {
