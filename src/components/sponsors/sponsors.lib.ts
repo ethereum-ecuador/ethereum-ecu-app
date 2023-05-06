@@ -9,15 +9,24 @@ const horizonLatam = '/images/sponsors/horizon-latam.svg'
 const logoChaskis = '/images/sponsors/chaskis.svg'
 const logoEquity = '/images/sponsors/equity.png'
 const logoMundoVirtual = '/images/sponsors/mundo-virtual-solutions.png'
+const web3FamiliaLogo = '/images/sponsors/web3-familia.jpg'
+const metaPoolLogo = '/images/sponsors/meta-pool.svg'
+const workingUpLogo = '/images/sponsors/working-up.jpg'
+const ochoCafeLogo = '/images/sponsors/ocho-cafe.png'
+const quickNodeLogo = '/images/sponsors/quick-node.png'
 
 //allies
 const logoEthEC = '/images/eth-ec-with-text.svg'
-const logoEF = '/images/sponsors/ef.png'
+// const logoEF = '/images/sponsors/ef.png'
 const logoImagenSistemas = '/images/allies/imagen-sistemas.jpg'
 const logoFISEPN = '/images/allies/fis-epn.png'
 const logoNovaEPN = '/images/allies/innovation-epn.png'
 const logoNovaUSFQ = '/images/allies/innovation-usfq.png'
 const logoLegalLab = '/images/allies/legal-lab.svg'
+
+// media partners
+const coinTelegraphLogo = '/images/media-partners/coin-telegraph.png'
+const aeisEPNlogo = '/images/media-partners/aeis-epn.png'
 
 //part of
 const logoEthereumBlack = '/images/eth-black.png'
@@ -70,6 +79,15 @@ export const sponsors: SponsorList = {
       },
     },
     {
+      name: 'Ocho Café',
+      logo: {
+        url: ochoCafeLogo,
+        alt: 'Logo Ocho Café',
+        width: 125,
+        height: 125,
+      },
+    },
+    {
       name: 'Equity',
       logo: {
         url: logoEquity,
@@ -103,6 +121,42 @@ export const sponsors: SponsorList = {
         alt: 'Logo Horizon Techonoly LATAM',
         width: 225,
         height: 225,
+      },
+    },
+    {
+      name: 'Meta Pool',
+      logo: {
+        url: metaPoolLogo,
+        alt: 'Meta Pool Logo',
+        width: 225,
+        height: 225,
+      },
+    },
+    {
+      name: 'Web3 Familia',
+      logo: {
+        url: web3FamiliaLogo,
+        alt: 'Web3 Familia Logo',
+        width: logoSize,
+        height: logoSize,
+      },
+    },
+    {
+      name: 'Quick Node',
+      logo: {
+        url: quickNodeLogo,
+        alt: 'Quick Node Logo',
+        width: 225,
+        height: 225,
+      },
+    },
+    {
+      name: 'Working Up',
+      logo: {
+        url: workingUpLogo,
+        alt: 'Working Up Logo',
+        width: logoSize,
+        height: logoSize,
       },
     },
   ],
@@ -155,10 +209,19 @@ export const sponsors: SponsorList = {
   ],
   mediaPartners: [
     {
-      name: 'Club de Innovación EPN',
+      name: 'Coin Telegraph',
       logo: {
-        url: logoNovaEPN,
-        alt: 'Club de Innovación EPN',
+        url: coinTelegraphLogo,
+        alt: 'Coin Telegraph logo',
+        width: logoSize,
+        height: logoSize,
+      },
+    },
+    {
+      name: 'AEIS EPN',
+      logo: {
+        url: aeisEPNlogo,
+        alt: 'Asociacion de Estudiantes de Ingeniería de Sistemas EPN logo',
         width: logoSize,
         height: logoSize,
       },
