@@ -19,12 +19,15 @@ const logoNovaEPN = '/images/allies/innovation-epn.png'
 const logoNovaUSFQ = '/images/allies/innovation-usfq.png'
 const logoLegalLab = '/images/allies/legal-lab.svg'
 
+//part of
+const logoEthereumBlack = '/images/eth-black.png'
+
 interface SponsorList {
   [key: string]: SponsorProps[]
 }
 
 const logoSize = 250
-const logoSizeS = 250
+const logoMinSize = 125
 
 export const sponsors: SponsorList = {
   hosts: [
@@ -147,6 +150,29 @@ export const sponsors: SponsorList = {
         alt: 'Club de Innovación EPN',
         width: logoSize,
         height: logoSize,
+      },
+    },
+  ],
+  mediaPartners: [
+    {
+      name: 'Club de Innovación EPN',
+      logo: {
+        url: logoNovaEPN,
+        alt: 'Club de Innovación EPN',
+        width: logoSize,
+        height: logoSize,
+      },
+    }, 
+  ],
+  partOf: [
+    
+    {
+      name: 'Part of Ethereum',
+      logo: {
+        url: logoEthereumBlack,
+        alt: 'Ethereum',
+        width: logoMinSize,
+        height: logoMinSize,
       },
     },
   ],

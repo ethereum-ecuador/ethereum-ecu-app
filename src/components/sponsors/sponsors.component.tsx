@@ -15,6 +15,16 @@ export const Sponsors = () => {
         title={'Sponsors'}
         id={'sponsors'}
       />
+      <SponsorsCard
+        data={sponsors.mediaPartners}
+        title={'Media Partners'}
+        id={'mediaPartners'}
+      />
+      <SponsorsCard
+        data={sponsors.partOf}
+        title={'Part of'}
+        id={'partOf'}
+      />
     </>
   )
 }
