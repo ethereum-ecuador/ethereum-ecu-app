@@ -15,6 +15,7 @@ const workingUpLogo = '/images/sponsors/working-up.jpg'
 const ochoCafeLogo = '/images/sponsors/ocho-cafe.png'
 const quickNodeLogo = '/images/sponsors/quick-node.png'
 const diversosDigitalesLogo = '/images/sponsors/diversos-digitales.png'
+const auroraLogo = '/images/sponsors/aurora.png'
 
 //allies
 const logoEthEC = '/images/eth-ec-with-text.svg'
@@ -116,12 +117,21 @@ export const sponsors: SponsorList = {
       },
     },
     {
+      name: 'Aurora',
+      logo: {
+        url: auroraLogo,
+        alt: 'Logo Aurora',
+        width: 175,
+        height: 175,
+      },
+    },
+    {
       name: 'Ocho Café',
       logo: {
         url: ochoCafeLogo,
         alt: 'Logo Ocho Café',
-        width: 125,
-        height: 125,
+        width: 175,
+        height: 175,
       },
     },
     {
@@ -143,6 +153,15 @@ export const sponsors: SponsorList = {
       },
     },
     {
+      name: 'Working Up',
+      logo: {
+        url: workingUpLogo,
+        alt: 'Working Up Logo',
+        width: logoSize,
+        height: logoSize,
+      },
+    },
+    {
       name: 'Mundo Virtual',
       logo: {
         url: logoMundoVirtual,
@@ -158,15 +177,6 @@ export const sponsors: SponsorList = {
         alt: 'Logo Horizon Techonoly LATAM',
         width: 225,
         height: 225,
-      },
-    },
-    {
-      name: 'Working Up',
-      logo: {
-        url: workingUpLogo,
-        alt: 'Working Up Logo',
-        width: logoSize,
-        height: logoSize,
       },
     },
   ],
