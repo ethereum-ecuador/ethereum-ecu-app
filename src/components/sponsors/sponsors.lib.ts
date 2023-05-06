@@ -14,6 +14,7 @@ const metaPoolLogo = '/images/sponsors/meta-pool.svg'
 const workingUpLogo = '/images/sponsors/working-up.jpg'
 const ochoCafeLogo = '/images/sponsors/ocho-cafe.png'
 const quickNodeLogo = '/images/sponsors/quick-node.png'
+const diversosDigitalesLogo = '/images/sponsors/diversos-digitales.png'
 
 //allies
 const logoEthEC = '/images/eth-ec-with-text.svg'
@@ -79,6 +80,42 @@ export const sponsors: SponsorList = {
       },
     },
     {
+      name: 'Meta Pool',
+      logo: {
+        url: metaPoolLogo,
+        alt: 'Meta Pool Logo',
+        width: 225,
+        height: 225,
+      },
+    },
+    {
+      name: 'Web3 Familia',
+      logo: {
+        url: web3FamiliaLogo,
+        alt: 'Web3 Familia Logo',
+        width: logoSize,
+        height: logoSize,
+      },
+    },
+    {
+      name: 'Quick Node',
+      logo: {
+        url: quickNodeLogo,
+        alt: 'Quick Node Logo',
+        width: 225,
+        height: 225,
+      },
+    },
+    {
+      name: 'Diversos Digitales',
+      logo: {
+        url: diversosDigitalesLogo,
+        alt: 'Logo Diversos Digitales',
+        width: 190,
+        height: 190,
+      },
+    },
+    {
       name: 'Ocho Café',
       logo: {
         url: ochoCafeLogo,
@@ -119,33 +156,6 @@ export const sponsors: SponsorList = {
       logo: {
         url: horizonLatam,
         alt: 'Logo Horizon Techonoly LATAM',
-        width: 225,
-        height: 225,
-      },
-    },
-    {
-      name: 'Meta Pool',
-      logo: {
-        url: metaPoolLogo,
-        alt: 'Meta Pool Logo',
-        width: 225,
-        height: 225,
-      },
-    },
-    {
-      name: 'Web3 Familia',
-      logo: {
-        url: web3FamiliaLogo,
-        alt: 'Web3 Familia Logo',
-        width: logoSize,
-        height: logoSize,
-      },
-    },
-    {
-      name: 'Quick Node',
-      logo: {
-        url: quickNodeLogo,
-        alt: 'Quick Node Logo',
         width: 225,
         height: 225,
       },
