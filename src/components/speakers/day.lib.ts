@@ -63,11 +63,9 @@ export const days: Day[] = [
       date: 'Mayo 19 - UDLA',
       dateTime: '2022-05-19',
       speakers: [
-        speakerById.RommelDeLosRios,
-        speakerById.RicardoRuano,
         speakerById.AltairBarahona,
         speakerById.JoseIgnacioNaranjo,
-        speakerById.WilsonYandun,
+        speakerById.NicolasSerrano
       ],
     },
     {

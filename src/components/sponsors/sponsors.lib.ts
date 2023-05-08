@@ -29,6 +29,7 @@ const logoLegalLab = '/images/allies/legal-lab.svg'
 // media partners
 const coinTelegraphLogo = '/images/media-partners/coin-telegraph.png'
 const aeisEPNlogo = '/images/media-partners/aeis-epn.png'
+const aeiqEPNlogo = '/images/media-partners/aeiq-epn.png'
 
 //part of
 const logoEthereumBlack = '/images/eth-black.png'
@@ -244,6 +245,15 @@ export const sponsors: SponsorList = {
         alt: 'Asociacion de Estudiantes de Ingeniería de Sistemas EPN logo',
         width: logoSize,
         height: logoSize,
+      },
+    }, 
+    {
+      name: 'AEIQ EPN',
+      logo: {
+        url: aeiqEPNlogo,
+        alt: 'Asociacion de Estudiantes de Ingeniería de Química EPN logo',
+        width: 125,
+        height: 125,
       },
     }, 
   ],
