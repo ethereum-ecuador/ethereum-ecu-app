@@ -26,7 +26,7 @@ export function About() {
           <div className="my-6 mt-6 h-[30vh] max-h-[500px] w-[80vw] max-w-[500px] sm:h-[50vh] sm:w-[70vw] lg:h-[50vh] xl:max-h-[750px] xl:max-w-[750px]">
             <a href="https://www.youtube.com/watch?v=lBVwOI75vko">
               <Image
-                src="/images/cover.jpg"
+                src="/images/cover.png"
                 alt=""
                 width={500}
                 height={500}
