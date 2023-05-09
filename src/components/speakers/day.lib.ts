@@ -41,9 +41,11 @@ export const days: Day[] = [
       speakers: [
         speakerById.NicolasSerrano,
         speakerById.PazGomez,
+        speakerById.ClaudioCossio,
         speakerById.JoseLuisBenitez,
-        speakerById.JoseSebastianPonce,
-        speakerById.VladimirLuna,
+        speakerById.PaulNoboa,
+        speakerById.MiguelVillegas,
+        speakerById.SantiagoLeon,
       ],
     },
     {
@@ -53,9 +55,10 @@ export const days: Day[] = [
       speakers: [
         speakerById.NicolasSerrano,
         speakerById.LuisUshina,
-        speakerById.AlexPadilla,
-        speakerById.VladimirLuna,
         speakerById.JoseLuisBenitez,
+        speakerById.LuisCarchi,
+        speakerById.IrwinTello,
+        speakerById.ErrolCartwright,
       ],
     },
     {
@@ -65,6 +68,8 @@ export const days: Day[] = [
       speakers: [
         speakerById.AltairBarahona,
         speakerById.JoseIgnacioNaranjo,
+        speakerById.CrisInCrypto,
+        speakerById.SantiagoLeon,
         speakerById.NicolasSerrano
       ],
     },

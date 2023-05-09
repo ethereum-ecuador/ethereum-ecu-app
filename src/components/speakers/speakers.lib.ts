@@ -160,6 +160,13 @@ export const speakerById: { [key: string]: Speaker } = {
     image: '/images/speakers/federico-aquino.jpg',
     linkedin: 'https://www.linkedin.com/in/fedeaquino',
   },
+  ClaudioCossio: {
+    id: 'ClaudioCossio',
+    name: 'Claudio Cossio',
+    role: 'Cofundador de Meta Pool',
+    image: '/images/speakers/claudio-cossio.jpg',
+    linkedin: 'https://www.linkedin.com/in/ccossio/',
+  },
   // Thursday
   LuisUshina: {
     id: 'LuisUshiña',
@@ -168,19 +175,31 @@ export const speakerById: { [key: string]: Speaker } = {
     image: '/images/speakers/luis-fernando-ushina.jpg',
     linkedin: 'https://www.linkedin.com/in/wolfcito/',
   },
-//   MarceloHaro: {
-//     id: 'MarceloHaro',
-//     name: 'Marcelo Haro',
-//     role: '',
-//     image: '/images/speakers/vladimir-luna.jpg',
-//     linkedin: 'https://www.linkedin.com/in/vladimirlunapmp/',
-//   },
-  VladimirLuna: {
-    id: 'VladimirLuna',
-    name: 'Vladimir Luna',
+  LuisCarchi: {
+    id: 'LuisCarchi',
+    name: 'Luis Carchi',
     role: '',
-    image: '/images/speakers/vladimir-luna.jpg',
-    linkedin: 'https://www.linkedin.com/in/vladimirlunapmp/',
+    image: '/images/speakers/luis-carchi.jpg',
+    linkedin: '',
+  },
+  IrwinTello: {
+    id: 'IrwinTello',
+    name: 'Irwin Tello',
+    role: '',
+    image: '/images/speakers/irwin-tello.jpg',
+  },
+  ErrolCartwright: {
+    id: 'ErrolCartwright',
+    name: 'Errol Cartwright',
+    role: '',
+    image: '/images/speakers/default.png',
+    linkedin: 'https://www.linkedin.com/in/errolcartwright/',
+  },
+  Turco: {
+    id: 'Turco',
+    name: 'Turco',
+    role: '',
+    image: '/images/speakers/default.png',
   },
   // Friday
   JoseIgnacioNaranjo: {
