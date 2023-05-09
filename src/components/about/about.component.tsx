@@ -13,7 +13,7 @@ export function About() {
           </h2>
           <p className="mt-4 text-justify font-display text-base font-normal tracking-tight text-blue-900 md:mt-10 md:text-lg lg:text-2xl">
             Una semana de conferencias sobre la tecnología blockchain que se
-            llevará a cabo del 15 al 19 de mayo en varias universidades de
+            llevará a cabo del 15 al 20 de mayo en varias universidades de
             Quito, como la EPN, USFQ y UDLA. Cada día tendrá un enfoque
             diferente relacionado con la implementación de blockchain en
             Ecuador, con varias conferencias sobre descentralización, seguridad
