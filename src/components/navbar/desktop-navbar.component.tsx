@@ -6,8 +6,7 @@ export function DesktopNavbar({ links }: ResponsiveNavbarProps) {
     <>
       <LogoWithText />
       <ul
-        className="flex flex-row items-center justify-between space-x-8 text-lg font-semibold"
-        style={{ width: '40%' }}
+        className="flex flex-row items-center justify-between space-x-8 text-lg font-semibold w-[50vw]"
       >
         {links.map((link: LinkProps) => (
           <li style={{ margin: 0 }} key={link.name}>
