@@ -7,19 +7,18 @@ export const days: Day[] = [
       date: 'Mayo 15 - USFQ',
       dateTime: '2022-05-15',
       speakers: [
-        speakerById.LegalLab,
         speakerById.DiegoJaramillo,
         speakerById.FabianJaramillo,
         speakerById.JuanFranciscoGonzalez,
-        speakerById.JoseSebastianPonce,
-        speakerById.XavierAndrade,
-        speakerById.FranciscoAlmeida,
         speakerById.BarbaraTeran,
         speakerById.JoseAdatty,
         speakerById.PaulNoboa,
-        speakerById.MiguelVillegas,
+        speakerById.AndresSanchez,
+        speakerById.ChristianEspinoza,
+        speakerById.FarithSimon,
         speakerById.NicolasSerrano,
-        speakerById.SantiagoLeon,
+        speakerById.JoseSebastianPonce,
+        speakerById.MiguelVillegas,
         speakerById.AlexPadilla,
       ],
     },
@@ -28,10 +27,13 @@ export const days: Day[] = [
       date: 'Mayo 16 - USFQ',
       dateTime: '2022-05-16',
       speakers: [
+        speakerById.LuisEspinosaGoded,
         speakerById.FranciscoRamos,
         speakerById.JoseDanielRubio,
+        speakerById.FelipeSalgado,
         speakerById.PazGomez,
         speakerById.MauricioRubio,
+        speakerById.ChristianNarvaez,
       ],
     },
     {
@@ -82,5 +84,6 @@ export const days: Day[] = [
       ],
     },
   ];
+  
   
   
