@@ -221,7 +221,7 @@ export const speakerById: { [key: string]: Speaker } = {
     name: 'José Ignacio Naranjo',
     role: 'Estudiante Ing. Software UDLA',
     // image: "/images/speakers/jose-naranjo.jpg",
-    image: '/images/speakers/JN.jpg',
+    image: '/images/speakers/jose-naranjo.jpg',
     linkedin: 'https://ec.linkedin.com/in/jose-ignacio-naranjo-martinez-30bb17272',
   },
   AltairBarahona: {
