@@ -17,6 +17,7 @@ const ochoCafeLogo = '/images/sponsors/ocho-cafe.png'
 const quickNodeLogo = '/images/sponsors/quick-node.png'
 const diversosDigitalesLogo = '/images/sponsors/diversos-digitales.png'
 const auroraLogo = '/images/sponsors/aurora.png'
+const xucreLogo = '/images/sponsors/xucre.png'
 
 //allies
 const logoEthEC = '/images/eth-ec-with-text.svg'
@@ -110,6 +111,15 @@ export const sponsors: SponsorList = {
       },
     },
     {
+      name: 'Aurora',
+      logo: {
+        url: auroraLogo,
+        alt: 'Logo Aurora',
+        width: 165,
+        height: 165,
+      },
+    },
+    {
       name: 'Ethereum Bogotá',
       logo: {
         url: ethBogotaLogo,
@@ -119,12 +129,12 @@ export const sponsors: SponsorList = {
       },
     },
     {
-      name: 'Aurora',
+      name: 'Xucre',
       logo: {
-        url: auroraLogo,
-        alt: 'Logo Aurora',
-        width: 165,
-        height: 165,
+        url: xucreLogo,
+        alt: 'Xucre Logo',
+        width: 225,
+        height: 225,
       },
     },
     {
