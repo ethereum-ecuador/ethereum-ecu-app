@@ -11,6 +11,7 @@ const logoEquity = '/images/sponsors/equity.png'
 const logoMundoVirtual = '/images/sponsors/mundo-virtual-solutions.png'
 const web3FamiliaLogo = '/images/sponsors/web3-familia.jpg'
 const metaPoolLogo = '/images/sponsors/meta-pool.svg'
+const ethBogotaLogo = '/images/sponsors/eth-bogota.jpg'
 const workingUpLogo = '/images/sponsors/working-up.jpg'
 const ochoCafeLogo = '/images/sponsors/ocho-cafe.png'
 const quickNodeLogo = '/images/sponsors/quick-node.png'
@@ -109,12 +110,12 @@ export const sponsors: SponsorList = {
       },
     },
     {
-      name: 'Diversos Digitales',
+      name: 'Ethereum Bogotá',
       logo: {
-        url: diversosDigitalesLogo,
-        alt: 'Logo Diversos Digitales',
-        width: 190,
-        height: 190,
+        url: ethBogotaLogo,
+        alt: 'Logo Ethereum Bogotá',
+        width: 200,
+        height: 200,
       },
     },
     {
@@ -122,8 +123,17 @@ export const sponsors: SponsorList = {
       logo: {
         url: auroraLogo,
         alt: 'Logo Aurora',
-        width: 175,
-        height: 175,
+        width: 165,
+        height: 165,
+      },
+    },
+    {
+      name: 'Diversos Digitales',
+      logo: {
+        url: diversosDigitalesLogo,
+        alt: 'Logo Diversos Digitales',
+        width: 190,
+        height: 190,
       },
     },
     {
