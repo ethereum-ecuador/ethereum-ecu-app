@@ -35,6 +35,7 @@ const coinTelegraphLogo = '/images/media-partners/coin-telegraph.png'
 const aeisEPNlogo = '/images/media-partners/aeis-epn.png'
 const aeiqEPNlogo = '/images/media-partners/aeiq-epn.png'
 const ciberseguridadEPNlogo = '/images/media-partners/ciberseguridad-epn.png'
+const openLabECLogo = '/images/media-partners/open-lab-ec.svg'
 
 //part of
 const logoEthereumBlack = '/images/eth-black.png'
@@ -266,6 +267,15 @@ export const sponsors: SponsorList = {
       logo: {
         url: coinTelegraphLogo,
         alt: 'Coin Telegraph logo',
+        width: logoSize,
+        height: logoSize,
+      },
+    },
+    {
+      name: 'OpenLab EC',
+      logo: {
+        url: openLabECLogo,
+        alt: 'OpenLab EC logo',
         width: logoSize,
         height: logoSize,
       },
