@@ -11,13 +11,15 @@ const logoEquity = '/images/sponsors/equity.png'
 const logoMundoVirtual = '/images/sponsors/mundo-virtual-solutions.png'
 const web3FamiliaLogo = '/images/sponsors/web3-familia.jpg'
 const metaPoolLogo = '/images/sponsors/meta-pool.svg'
-const ethBogotaLogo = '/images/sponsors/eth-bogota.jpg'
+const ethBogotaLogo = '/images/sponsors/eth-bogota.png'
 const workingUpLogo = '/images/sponsors/working-up.jpg'
 const ochoCafeLogo = '/images/sponsors/ocho-cafe.png'
 const quickNodeLogo = '/images/sponsors/quick-node.png'
 const diversosDigitalesLogo = '/images/sponsors/diversos-digitales.png'
 const auroraLogo = '/images/sponsors/aurora.png'
 const xucreLogo = '/images/sponsors/xucre.png'
+const payphoneLogo = '/images/sponsors/payphone.jpg'
+const tuentiLogo = '/images/sponsors/tuenti.png'
 
 //allies
 const logoEthEC = '/images/eth-ec-with-text.svg'
@@ -32,6 +34,7 @@ const logoLegalLab = '/images/allies/legal-lab.svg'
 const coinTelegraphLogo = '/images/media-partners/coin-telegraph.png'
 const aeisEPNlogo = '/images/media-partners/aeis-epn.png'
 const aeiqEPNlogo = '/images/media-partners/aeiq-epn.png'
+const ciberseguridadEPNlogo = '/images/media-partners/ciberseguridad-epn.png'
 
 //part of
 const logoEthereumBlack = '/images/eth-black.png'
@@ -75,37 +78,10 @@ export const sponsors: SponsorList = {
   ],
   sponsors: [
     {
-      name: 'Ethereum Mitad del Mundo',
-      logo: {
-        url: logoEthEC,
-        alt: 'Logo Ethereum Mitad del Mundo',
-        width: logoSize,
-        height: logoSize,
-      },
-    },
-    {
       name: 'Meta Pool',
       logo: {
         url: metaPoolLogo,
         alt: 'Meta Pool Logo',
-        width: 225,
-        height: 225,
-      },
-    },
-    {
-      name: 'Web3 Familia',
-      logo: {
-        url: web3FamiliaLogo,
-        alt: 'Web3 Familia Logo',
-        width: logoSize,
-        height: logoSize,
-      },
-    },
-    {
-      name: 'Quick Node',
-      logo: {
-        url: quickNodeLogo,
-        alt: 'Quick Node Logo',
         width: 225,
         height: 225,
       },
@@ -120,21 +96,57 @@ export const sponsors: SponsorList = {
       },
     },
     {
-      name: 'Ethereum Bogotá',
-      logo: {
-        url: ethBogotaLogo,
-        alt: 'Logo Ethereum Bogotá',
-        width: 200,
-        height: 200,
-      },
-    },
-    {
       name: 'Xucre',
       logo: {
         url: xucreLogo,
         alt: 'Xucre Logo',
         width: 225,
         height: 225,
+      },
+    },
+    {
+      name: 'Quick Node',
+      logo: {
+        url: quickNodeLogo,
+        alt: 'Quick Node Logo',
+        width: 225,
+        height: 225,
+      },
+    },
+    {
+      name: 'Payphone',
+      logo: {
+        url: payphoneLogo,
+        alt: 'Payphone Logo',
+        width: 175,
+        height: 175,
+      },
+    },
+    {
+      name: 'Ethereum Bogotá',
+      logo: {
+        url: ethBogotaLogo,
+        alt: 'Logo Ethereum Bogotá',
+        width: logoSize,
+        height: logoSize,
+      },
+    },
+    {
+      name: 'Tuenti',
+      logo: {
+        url: tuentiLogo,
+        alt: 'Tuenti Logo',
+        width: 175,
+        height: 175,
+      },
+    },
+    {
+      name: 'Web3 Familia',
+      logo: {
+        url: web3FamiliaLogo,
+        alt: 'Web3 Familia Logo',
+        width: logoSize,
+        height: logoSize,
       },
     },
     {
@@ -276,6 +288,15 @@ export const sponsors: SponsorList = {
         height: 125,
       },
     }, 
+    {
+      name: 'Club Ciberseguridad EPN',
+      logo: {
+        url: ciberseguridadEPNlogo,
+        alt: 'Club Ciberseguridad EPN logo',
+        width: logoSize,
+        height: logoSize,
+      }
+    }
   ],
   partOf: [
     

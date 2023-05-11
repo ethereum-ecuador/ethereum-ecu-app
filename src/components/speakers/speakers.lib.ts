@@ -174,6 +174,18 @@ export const speakerById: { [key: string]: Speaker } = {
     image: '/images/speakers/federico-aquino.jpg',
     linkedin: 'https://www.linkedin.com/in/fedeaquino',
   },
+  JulioCesar: {
+    id: 'JulioCesar',
+    name: 'Julio Cesar',
+    role: 'Arquitecto | WEB3 Lead | Lider Comunidad ETH Bogota',
+    image: '/images/speakers/julio-cesar.jpg',
+  },
+  SantiagoViana: {
+    id: 'SantiagoViana',
+    name: 'Santiago Viana',
+    role: 'Ecólogo | Desarrollador | Líder de comunidad en ETHBogotá',
+    image: '/images/speakers/santiago-viana.jpg',
+  },
   ClaudioCossio: {
     id: 'ClaudioCossio',
     name: 'Claudio Cossio',
@@ -209,11 +221,17 @@ export const speakerById: { [key: string]: Speaker } = {
     image: '/images/speakers/default.png',
     linkedin: '',
   },
-  Turco: {
-    id: 'Turco',
-    name: 'Turco',
-    role: 'Aurora Community Leader',
-    image: '/images/speakers/default.png',
+  BorisPolonia: {
+    id: 'BorisPolonia',
+    name: 'BorisPolonia',
+    role: 'DevRel en Aurora Labs',
+    image: '/images/speakers/boris-polonia.jpg',
+  },
+  MateoEmilio: {
+    id: 'MateoEmilio',
+    name: 'Mateo Emilio',
+    role: 'Aurora',
+    image: '/images/speakers/mateo-emilio.png',
   },
   // Friday
   JoseIgnacioNaranjo: {
@@ -228,15 +246,14 @@ export const speakerById: { [key: string]: Speaker } = {
     id: 'AltairBarahona',
     name: 'Altair Barahona',
     role: 'Software Engineer',
-    image: "/images/speakers/altair-barahona.jpg",
+    image: "/images/speakers/altair-barahona.jpeg",
     linkedin: 'https://www.linkedin.com/in/altair-barahona/',
   },
   CrisInCrypto: {
     id: 'CrisInCrypto',
     name: 'Cris In Crypto',
     role: '',
-    // image: '/images/speakers/cris-in-cripto.jpeg',
-    image: '/images/speakers/default.png',
+    image: '/images/speakers/cris-in-crypto.jpg',
     linkedin: '',
   },
   Default: {
