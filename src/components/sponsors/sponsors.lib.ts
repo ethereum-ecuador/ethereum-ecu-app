@@ -18,7 +18,7 @@ const quickNodeLogo = '/images/sponsors/quick-node.png'
 const diversosDigitalesLogo = '/images/sponsors/diversos-digitales.png'
 const auroraLogo = '/images/sponsors/aurora.png'
 const xucreLogo = '/images/sponsors/xucre.png'
-const payphoneLogo = '/images/sponsors/payphone.jpg'
+const payphoneLogo = '/images/sponsors/payphone.png'
 const tuentiLogo = '/images/sponsors/tuenti.png'
 
 //allies
