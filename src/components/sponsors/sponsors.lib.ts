@@ -31,7 +31,8 @@ const logoNovaUSFQ = '/images/allies/innovation-usfq.png'
 const logoLegalLab = '/images/allies/legal-lab.svg'
 
 // media partners
-const banklessDAOEsp = '/images/media-partners/bankless-dao-esp.png'
+const banklessDAO = '/images/media-partners/bankless.png'
+const banklessDAOEsp = '/images/media-partners/bankless-esp.png'
 const coinTelegraphLogo = '/images/media-partners/coin-telegraph.png'
 const aeisEPNlogo = '/images/media-partners/aeis-epn.png'
 const aeiqEPNlogo = '/images/media-partners/aeiq-epn.png'
@@ -263,6 +264,15 @@ export const sponsors: SponsorList = {
     },
   ],
   mediaPartners: [
+    {
+      name: 'Bankless DAO',
+      logo: {
+        url: banklessDAO,
+        alt: 'Bankless DAO logo',
+        width: logoSize,
+        height: logoSize,
+      },
+    },
     {
       name: 'Bankless DAO Español',
       logo: {
