@@ -42,9 +42,10 @@ export const days: Day[] = [
       date: 'Mayo 17 - EPN',
       dateTime: '2022-05-17',
       speakers: [
-        speakerById.NicolasSerrano,
-        speakerById.XavoBarona,
         speakerById.PazGomez,
+        speakerById.XavoBarona,
+        speakerById.AlexGarcia,
+        speakerById.NicolasSerrano,
         speakerById.ClaudioCossio,
         speakerById.JulioCesar,
         speakerById.SantiagoViana,
