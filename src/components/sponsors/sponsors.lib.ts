@@ -31,6 +31,7 @@ const logoNovaUSFQ = '/images/allies/innovation-usfq.png'
 const logoLegalLab = '/images/allies/legal-lab.svg'
 
 // media partners
+const banklessDAOEsp = '/images/media-partners/bankless-dao-esp.png'
 const coinTelegraphLogo = '/images/media-partners/coin-telegraph.png'
 const aeisEPNlogo = '/images/media-partners/aeis-epn.png'
 const aeiqEPNlogo = '/images/media-partners/aeiq-epn.png'
@@ -262,6 +263,15 @@ export const sponsors: SponsorList = {
     },
   ],
   mediaPartners: [
+    {
+      name: 'Bankless DAO Español',
+      logo: {
+        url: banklessDAOEsp,
+        alt: 'Bankless DAO Español logo',
+        width: logoSize,
+        height: logoSize,
+      },
+    },
     {
       name: 'Coin Telegraph',
       logo: {
