@@ -42,14 +42,16 @@ export const days: Day[] = [
       dateTime: '2022-05-17',
       speakers: [
         speakerById.NicolasSerrano,
-        speakerById.SantiagoViana,
-        speakerById.JulioCesar,
+        speakerById.XavoBarona,
         speakerById.PazGomez,
         speakerById.ClaudioCossio,
+        speakerById.JulioCesar,
+        speakerById.SantiagoViana,
+        speakerById.FelipeOleas,
         speakerById.JoseLuisBenitez,
         speakerById.PaulNoboa,
         speakerById.MiguelVillegas,
-        speakerById.SantiagoLeon,
+        speakerById.AlexPadilla,
       ],
     },
     {
@@ -72,11 +74,15 @@ export const days: Day[] = [
       date: 'Mayo 19 - UDLA',
       dateTime: '2022-05-19',
       speakers: [
-        speakerById.AltairBarahona,
-        speakerById.JoseIgnacioNaranjo,
+        speakerById.NicolasSerrano,
         speakerById.CrisInCrypto,
+        speakerById.XavoBarona,
+        speakerById.FelipeOleas,
+        speakerById.AlexGarcia,
+        speakerById.MiguelVillegas,
         speakerById.SantiagoLeon,
-        speakerById.NicolasSerrano
+        speakerById.JoseIgnacioNaranjo, 
+        speakerById.AltairBarahona,
       ],
     },
     {

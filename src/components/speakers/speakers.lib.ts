@@ -105,7 +105,7 @@ export const speakerById: { [key: string]: Speaker } = {
   AlexPadilla: {
     id: 'AlexPadilla',
     name: 'Alex Padilla',
-    role: 'Ethereum Tricolor | Software Engineering EPN',
+    role: 'Ethereum Tricolor | Lider de comunidad',
     image: '/images/speakers/alex-padilla.png',
     linkedin: 'https://www.linkedin.com/in/hilmalex/',
   },
@@ -180,6 +180,18 @@ export const speakerById: { [key: string]: Speaker } = {
     role: 'Arquitecto | WEB3 Lead | Lider Comunidad ETH Bogota',
     image: '/images/speakers/julio-cesar.jpg',
   },
+  FelipeOleas:{
+    id: 'FelipeOleas',
+    name: 'Felipe Oleas',
+    role: 'Socio Equity | CEO Chaskis Tech | Editor General Lawyers Ec',
+    image: '/images/speakers/felipe-oleas.jpg',
+  },
+  XavoBarona: {
+    id: 'XavoBarona',
+    name: 'Xavo Barona',
+    role: 'CMO Payphone',
+    image: '/images/speakers/xavo-barona.jpg',
+  },
   SantiagoViana: {
     id: 'SantiagoViana',
     name: 'Santiago Viana',
@@ -192,6 +204,12 @@ export const speakerById: { [key: string]: Speaker } = {
     role: 'Cofundador de Meta Pool',
     image: '/images/speakers/claudio-cossio.jpg',
     linkedin: 'https://www.linkedin.com/in/ccossio/',
+  },
+  AlexGarcia: {
+    id: 'AlexGarcia',
+    name: 'Alex Garcia',
+    role: 'Xucre',
+    image: '/images/speakers/alex-garcia.jpg',
   },
   // Thursday
   LuisUshina: {
@@ -230,7 +248,7 @@ export const speakerById: { [key: string]: Speaker } = {
   MateoEmilio: {
     id: 'MateoEmilio',
     name: 'Mateo Emilio',
-    role: 'Aurora',
+    role: 'Aurora Tech Leader',
     image: '/images/speakers/mateo-emilio.png',
   },
   // Friday
