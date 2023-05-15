@@ -23,10 +23,10 @@ export function Countdown() {
 
       const totalSeconds = (eventDate.getTime() - now.getTime()) / 1000;
 
-      const days = Math.floor(totalSeconds / 86400).toString().padStart(2, '0');
-      const hours = Math.floor((totalSeconds % 86400) / 3600).toString().padStart(2, '0');
-      const minutes = Math.floor((totalSeconds % 3600) / 60).toString().padStart(2, '0');
-      const seconds = Math.floor(totalSeconds % 60).toString().padStart(2, '0');
+      const days = Math.floor(0).toString().padStart(2, '0');
+      const hours = Math.floor((0) / 3600).toString().padStart(2, '0');
+      const minutes = Math.floor(0).toString().padStart(2, '0');
+      const seconds = Math.floor(0).toString().padStart(2, '0');
 
 
       setCountdown({
