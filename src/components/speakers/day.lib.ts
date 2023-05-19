@@ -66,7 +66,6 @@ export const days: Day[] = [
         speakerById.BorisPolonia,
         speakerById.MateoEmilio,
         speakerById.JoseLuisBenitez,
-        speakerById.LuisCarchi,
         speakerById.IrwinTello,
         speakerById.ErrolCartwright,
       ],
