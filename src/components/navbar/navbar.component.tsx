@@ -49,12 +49,12 @@ export const Navbar = ({ hasBackground }: NavbarProps) => {
       {hasNews ? (
         <div className="flex justify-center bg-white p-2 text-blue-700 backdrop-blur-sm">
           <a
-            href="https://vitalik.ca/"
+            href="https://vitalik.eth.limo"
             className="underline decoration-solid"
             target="_blank"
             rel="noreferrer"
           >
-            V.B Guidance and Resources
+            Orientación y recursos de Vitalik Buterin
           </a>
         </div>
       ) : null}
