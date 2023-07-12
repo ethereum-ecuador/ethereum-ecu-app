@@ -12,8 +12,8 @@ export const contributors: ContributorCardProps[] = [
   },
   {
     id: 'LuisUshiña',
-    name: 'Luis F. Ushiña',
-    role: 'Web3 developer',
+    name: 'Luis Fernando Ushiña',
+    role: 'Software Developer Architect',
     image: '/images/speakers/luis-fernando-ushina.jpg',
     linkedin: 'https://www.linkedin.com/in/wolfcito/',
     github: 'https://github.com/wolfcito',
